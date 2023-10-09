@@ -1,15 +1,17 @@
 .mainProfile {
   display: flex;
   width: 100%;
-  border: 1px solid gray;
+  height: 89%;
   padding: 2rem;
   gap: 2rem;
   border-radius: 15px;
-  box-shadow: 1px 1px 10px 5px gray;
+  box-shadow: 1px 1px 10px 5px rgb(62, 62, 62);
+  background-color: rgb(34, 34, 34);
 
   .imgSocial{
     display: inline;
     text-align: center;
+
     .mainImage {
       .image {
         height: 20rem;
@@ -17,8 +19,9 @@
       }
     }
     .socials{
-      margin-top: 2rem;
+      margin-top: 6rem;
       align-items: center;
+
       .handles{
         display: flex;
         gap: 1rem;
@@ -31,6 +34,9 @@
         height: 4rem;
         padding: 0 0.4rem;
         font-weight: bold;
+        color: white;
+        background-color: transparent;
+        width: 100%;
 
         i{
           font-size: 30px;
@@ -58,6 +64,7 @@
         margin-bottom: 2rem;
         font-family: monospace;
         font-size: 25px;
+        color: white;
       }
     }
 
@@ -73,15 +80,16 @@
       }
 
       .summaryDetails {
-        line-height: 25px;
+        line-height:30px;
         margin: 0;
         font-family: monospace;
         font-weight: bold;
         font-size: 18px;
+        color: white;
       }
     }
     .mainContacts{
-      margin-top: 2rem;
+      margin-top: 3rem;
 
       .contactsHeading{
         font-size: 24px;
@@ -95,6 +103,7 @@
         display: inline-flex;
         margin: 1rem 0.5rem 1rem;
         font-weight: bold;
+        color: white;
         span{
           font-family: math;
           font-size: 20px;
