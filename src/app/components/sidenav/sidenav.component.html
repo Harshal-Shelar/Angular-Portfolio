@@ -1,4 +1,7 @@
 <div class="sidebar" [class.sidebar-close]="!openSidebar">
+    <div class="mainIamge">
+        <img class="image" src="../../../assets/photo.jpg" alt="">
+    </div>
     <ul class="nav-links" id="nav-links">
         <li *ngFor="let item of menuSidebar" #itemEl routerLinkActive="active">
             <div *ngIf="item.sub_menu.length == 0" class="dropdown-title">

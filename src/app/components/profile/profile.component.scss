@@ -1,0 +1,110 @@
+.mainProfile {
+  display: flex;
+  width: 100%;
+  border: 1px solid gray;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 5px gray;
+
+  .imgSocial{
+    display: inline;
+    text-align: center;
+    .mainImage {
+      .image {
+        height: 20rem;
+        width: auto;
+      }
+    }
+    .socials{
+      margin-top: 2rem;
+      align-items: center;
+      .handles{
+        display: flex;
+        gap: 1rem;
+        border: 1px solid gray;
+        align-items: center;
+        margin: 1rem 0;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px 1px gray;
+        font-family: math;
+        height: 4rem;
+        padding: 0 0.4rem;
+        font-weight: bold;
+
+        i{
+          font-size: 30px;
+          color: #006663;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .mainInfo {
+
+    .nameAndDes {
+      display: inline;
+      
+      .name {
+        margin: 0;
+        font-family: math;
+        font-weight: bold;
+        color: #006663;
+      }
+
+      .des {
+        margin: 0;
+        margin-bottom: 2rem;
+        font-family: monospace;
+        font-size: 25px;
+      }
+    }
+
+    .mainSummary {
+      display: inline;
+
+      .summaryHeading {
+        font-size: 24px;
+        margin: 0 0 5px;
+        font-family: math;
+        font-weight: bold;
+        color: #006663;
+      }
+
+      .summaryDetails {
+        line-height: 25px;
+        margin: 0;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+    .mainContacts{
+      margin-top: 2rem;
+
+      .contactsHeading{
+        font-size: 24px;
+        margin: 0 0 5px;
+        font-family: math;
+        font-weight: bold;
+        color: #006663;
+      }
+
+      .contact{
+        display: inline-flex;
+        margin: 1rem 0.5rem 1rem;
+        font-weight: bold;
+        span{
+          font-family: math;
+          font-size: 20px;
+          margin-top: 2px;
+        }
+        i{
+          font-size: 24px;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}

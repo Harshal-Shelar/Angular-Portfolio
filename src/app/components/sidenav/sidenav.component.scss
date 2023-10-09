@@ -2,10 +2,19 @@
     height: 100%;
     transition: all 0.5s ease;
     padding: 0;
-    position: sticky;
+    border-radius: 15px;
     background-image: linear-gradient(to right, #006663, #111111);
+    box-shadow: 1px 1px 10px 5px gray;
 }
-
+.mainIamge{
+    text-align: center;
+    .image{
+        height: 10rem;
+        width: auto;
+        border-radius: 15px;
+        margin-top: 1rem;
+    }
+}
 .sidebar.sidebar-close {
     width: 60px;
 }
@@ -23,6 +32,7 @@
 
 .sidebar .nav-links li {
     list-style: none;
+    margin: 0.5rem 0;
 }
 
 .sidebar .nav-links>li {
@@ -82,11 +92,13 @@
     font-weight: 600;
     color: white;
     transition: all 0.4s ease;
+    font-family: monospace;
 }
 
 .sidebar .nav-links li:hover a .link_name,
 .sidebar .nav-links li.active a .link_name {
     color: white;
+    
 }
 
 .sidebar.sidebar-close .nav-links li a .link_name {
