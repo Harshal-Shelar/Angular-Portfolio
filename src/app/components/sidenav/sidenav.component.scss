@@ -4,6 +4,7 @@
     padding: 1rem 0;
     width: min-content;
     border-radius: 15px;
+    border: 1px solid #006663;
     background-image: linear-gradient(to right, #006663, #111111);
     box-shadow: 1px 1px 10px 5px rgb(62, 62, 62);
 }
@@ -148,6 +149,8 @@
     width: calc(100% - 60px);
 }
 
-@media (max-width: 420px) {
-    
+@media (max-width : 767px) {
+    .sidebar{
+        display: none;
+    }
 }
