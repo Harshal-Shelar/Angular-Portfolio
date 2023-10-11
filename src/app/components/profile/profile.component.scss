@@ -1,123 +1,135 @@
 .mainProfile {
-  display: flex;
-  width: 100%;
-  height: 89%;
   padding: 2rem;
-  gap: 2rem;
-  border-radius: 15px;
-  box-shadow: 1px 1px 10px 5px rgb(62, 62, 62);
-  background-color: rgb(34, 34, 34);
+  display: inline;
 
-  .imgSocial{
-    display: inline;
-    text-align: center;
+  .nameImage {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 2rem auto;
+    justify-content: center;
 
-    .mainImage {
-      .image {
-        height: 20rem;
-        width: auto;
+    .nameAndSummary {
+      .myNameIs {
+        margin: 1rem 0;
+        font-family: monospace;
+        font-size: 30px;
+      }
+
+      .name {
+        margin: 1rem 0 0.1rem;
+        font-family: math;
+        color: #7c93c6;
+        font-size: 60px;
+      }
+
+      .disg {
+        font-family: monospace;
+        font-size: 30px;
+
+        .desk{
+          color: rgb(255, 208, 0);
+        }
       }
     }
-    .socials{
-      margin-top: 6rem;
-      align-items: center;
-
-      .handles{
-        display: flex;
-        gap: 1rem;
-        border: 1px solid gray;
-        align-items: center;
-        margin: 1rem 0;
-        border-radius: 10px;
-        box-shadow: 1px 1px 10px 1px gray;
-        font-family: math;
-        height: 4rem;
-        padding: 0 0.4rem;
-        font-weight: bold;
-        color: white;
-        background-color: transparent;
-        width: 100%;
-
-        i{
-          font-size: 30px;
-          color: #006663;
-          align-items: center;
-        }
-
-        a{
-          text-decoration: none;
-          color: white;
-        }
+    .image{
+      .img{
+        height: 20rem;
+        width: auto;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px 5px #0d1320;
       }
     }
   }
+  .summary{
+    padding: 0 3rem;
+    font-family: monospace;
+    margin-top: 3rem;
+    color: #7c93c6;
+    line-height: 35px;
+  }
 
-  .mainInfo {
+  .mainButton{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
 
-    .nameAndDes {
-      display: inline;
-      
-      .name {
-        margin: 0;
-        font-family: math;
-        font-weight: bold;
-        color: #006663;
+    .checkOutBtn{
+      background-color: transparent;
+      border: 3px solid #7c93c6;
+      border-radius: 10px;
+      padding: 1rem;
+      font-size: 20px;
+      font-family: monospace;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #7c93c6;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .checkOutBtn:hover{
+      background-color: #7c93c6;
+      border: 3px solid #0d1320;
+      color: #0d1320;
+    }
+  }
+  .otherMainInfo{
+    margin-top: 2rem;
+
+    .mailMain{
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+
+      i{
+        color: rgb(255, 208, 0);
+        font-size: 40px;
       }
-
-      .des {
-        margin: 0;
-        margin-bottom: 2rem;
-        font-family: monospace;
-        font-size: 25px;
-        color: white;
+      h2{
+        color: #7c93c6;
+        font-size: 35px;
+        font-family: math;
       }
     }
 
-    .mainSummary {
-      display: inline;
+    .phoneMain{
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      text-align: right;
 
-      .summaryHeading {
-        font-size: 24px;
-        margin: 0 0 5px;
-        font-family: math;
-        font-weight: bold;
-        color: #006663;
+      i{
+        color: rgb(255, 208, 0);
+        font-size: 40px;
       }
-
-      .summaryDetails {
-        line-height:30px;
-        margin: 0;
-        font-family: monospace;
-        font-weight: bold;
-        font-size: 18px;
-        color: white;
+      h2{
+        color: #7c93c6;
+        font-size: 35px;
+        font-family: math;
       }
     }
-    .mainContacts{
-      margin-top: 3rem;
 
-      .contactsHeading{
-        font-size: 24px;
-        margin: 0 0 5px;
-        font-family: math;
-        font-weight: bold;
-        color: #006663;
+    .addressMain{
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      text-align: left;
+      justify-content: center;
+
+      i{
+        color: rgb(255, 208, 0);
+        font-size: 40px;
       }
-
-      .contact{
-        display: inline-flex;
-        margin: 1rem 0.5rem 1rem;
-        font-weight: bold;
-        color: white;
-        span{
-          font-family: math;
-          font-size: 20px;
-          margin-top: 2px;
-        }
-        i{
-          font-size: 24px;
-          margin-right: 1rem;
-        }
+      h2{
+        color: #7c93c6;
+        font-size: 35px;
+        font-family: math;
       }
     }
   }
