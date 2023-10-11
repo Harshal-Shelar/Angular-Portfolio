@@ -1,0 +1,121 @@
+.main {
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card_image {
+  max-height: 250px;
+  margin-top: -24px;
+  img {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: -100px;
+    background: linear-gradient(0deg, #091014 10%, rgba(0, 0, 0, 0) 100%);
+  }
+}
+
+.card {
+  background-color: #7c93c6;
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .projectCode{
+    text-align: right;
+
+    .projectCodeBtn{
+        margin: -1rem 1rem 1rem;
+        background-color: transparent;
+        border: 3px solid #0d1320;
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 7px;
+        font-weight: bold;
+    }
+    .projectCodeBtn:hover{
+        background-color: #0d1320;
+        border: 3px solid #7c93c6;
+        color: #7c93c6;
+    }
+  }
+}
+
+.card_content {
+  padding: 1rem;
+  z-index: 1;
+  display: block;
+}
+
+.card_title {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  line-height: 72px;
+  margin-top: -30px;
+  margin-bottom: 24px;
+  text-shadow: black 1px 0 15px;
+  color: #0d1320;
+}
+
+.card_text {
+  color:#0d1320;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  p {
+    max-width: 700px;
+  }
+}
+
+.card_price {
+  position: relative;
+  top: 10px;
+  right: 16px;
+  text-align: right;
+  color: black;
+  font-family: monospace;
+  height: 24px;
+  font-size: 36px;
+  font-weight: 400;
+  text-shadow: black 3px 0px 6px;
+}
+
+#item_fig .card:after {
+  font-family: "Raleway", sans-serif;
+  color: rgba(234, 225, 175, 0.8);
+  font-weight: 600;
+  // font-style: italic;
+  text-transform: uppercase;
+  display: block;
+  width: 10ch;
+  height: 1.5em;
+  padding: 0.2em 0.4em;
+  position: relative;
+  bottom: calc(100% - 2.5em);
+  left: 1em;
+}
