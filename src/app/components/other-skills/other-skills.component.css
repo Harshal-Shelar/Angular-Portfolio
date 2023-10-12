@@ -87,13 +87,19 @@
 .cerBtn{
     padding: 0.5rem;
     background-color: transparent;
-    border-radius: 10px;
+    border-radius: 7px;
     color: #2652b1;
     border: 3px solid #2652b1;
     font-weight: bold;
     margin: 0;
     cursor: pointer;
     text-align: right;
+}
+.cerBtn:hover{
+    color: white;
+    border: 3px solid #1b2334;
+    background-color: #1b2334;
+    box-shadow: 1px 1px 10px 1px black;
 }
 
 /* popup code */
