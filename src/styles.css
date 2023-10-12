@@ -1,10 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 
 
-.shadowBtn:hover{
+.shadowBtn:hover {
     box-shadow: 1px 1px 10px 1px white;
+    transition: 0.3s;
 }
 
-.darkShadow:hover{
+.darkShadow:hover {
     box-shadow: 1px 1px 15px 5px #0d1320;
+}
+
+.nextBtn {
+    text-align: center;
+}
+
+.btnNext {
+    padding: 1rem;
+    border: 3px solid #7c93c6;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #7c93c6;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.btnNext:hover {
+    border: 3px solid #0d1320;
+    background-color: #7c93c6;
+    color: #0d1320;
+    box-shadow: 1px 1px 10px 1px white;
+    transition: 0.3s;
 }

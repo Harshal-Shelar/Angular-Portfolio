@@ -17,6 +17,7 @@
         }
         .img:hover{
             box-shadow: 1px 1px 10px 1px white;
+            transition: 0.3s;
         }
     }
     .titles{
@@ -27,13 +28,14 @@
 
             li{
                 color: white;
-                font-size: 20px;
+                font-size: 22px;
                 font-family: monospace;
                 cursor: pointer;
                 color: #7c93c6;
             }
             li:hover{
                 text-shadow: rgb(211, 211, 211) 3px 0px 6px;
+                transition: 0.3s;
             }
         }
     }

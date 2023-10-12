@@ -1,0 +1,155 @@
+.classMain {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.hobHeading {
+    text-align: center;
+    font-size: 40px;
+    font-family: math;
+    color: #7c93c6;
+    text-shadow: rgb(153, 153, 153) 1px 0 3px;
+}
+
+.article-card {
+    width: 350px;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 300ms;
+    box-shadow: 0px 0px 10px 1px rgb(125, 125, 125);
+}
+
+.article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cardPointer {
+    cursor: pointer;
+}
+
+.article-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article-card .content {
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    padding: 30px 20px 10px 20px;
+    height: auto;
+    bottom: 0;
+    /* background: linear-gradient(transparent, rgba(0, 0, 0, 0.6)); */
+}
+
+.article-card .title {
+    margin: 0;
+    font-size: 40px;
+}
+
+.datee {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2e4983;
+}
+
+.article-card .date {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 4px;
+}
+
+.article-card .title {
+    font-size: 26px;
+    color: rgb(255, 208, 0);
+    text-shadow: rgb(89, 89, 89) 1px 0 3px;
+    font-weight: bold;
+}
+
+.titlee {
+    color: black !important;
+    font-size: 22px !important;
+}
+
+.cerBtn{
+    padding: 0.5rem;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #2652b1;
+    border: 3px solid #2652b1;
+    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+    text-align: right;
+}
+
+/* popup code */
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.popup {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    transition: all 200ms;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+    cursor: pointer;
+}
+
+.popup .content {
+    max-height: fit-content;
+    width: fit-content;
+    overflow: auto;
+}
+
+.popup .content img{
+    height: 40rem;
+    width: auto;
+    border-radius: 1px;
+}

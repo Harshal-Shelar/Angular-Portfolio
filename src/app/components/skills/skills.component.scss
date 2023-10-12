@@ -1,0 +1,153 @@
+.mainClass {
+    display: inline-flex;
+    margin: 2rem;
+    text-align: center;
+
+    .container {
+        margin: 0 auto;
+
+        .card {
+            position: relative;
+            width: 230px;
+            // background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            border-radius: 4px;
+            text-align: center;
+            overflow: hidden;
+            transition: 0.5s;
+            border: 1px solid #7c93c6;
+            box-shadow: 0px 0px 10px 1px #333f5c;
+
+            .box {
+                .percent {
+                    position: relative;
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    box-shadow: inset 0 0 50px #000;
+                    background: #222;
+                    z-index: 1000;
+
+                    svg {
+                        position: relative;
+                        width: 150px;
+                        height: 150px;
+                        z-index: 1000;
+                    }
+
+                    .num {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+
+                        img {
+                            height: 4.5rem;
+                            width: auto;
+                        }
+                    }
+
+                    h2 {
+                        color: #cfcfcf;
+                        font-weight: 700;
+                        font-size: 40px;
+                        transition: 0.5s;
+                    }
+
+                    span {
+                        color: #777;
+                        font-size: 24px;
+                        transition: 0.5s;
+                    }
+                }
+
+                .text {
+                    position: relative;
+                    color: #7c93c6;
+                    margin-top: 20px;
+                    font-weight: 700;
+                    font-size: 22px;
+                    letter-spacing: 2px;
+                    transition: 0.5s;
+                }
+            }
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+        }
+
+        .card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -50%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, .03);
+            pointer-events: none;
+            z-index: 1;
+        }
+    }
+}
+
+
+.percent .num h2 .card:hover .percent .num h2 span {
+    color: #fff;
+}
+
+.card:hover .text {
+    color: #fff;
+}
+
+
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: rgb(255, 208, 0);
+}
+
+.eduBack {
+    text-align: center;
+
+    .eduBtn {
+        padding: 1rem;
+        border: 3px solid #7c93c6;
+        background-color: transparent;
+        border-radius: 10px;
+        color: #7c93c6;
+        font-size: large;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .eduBtn:hover {
+        border: 3px solid #0d1320;
+        background-color: #7c93c6;
+        color: #0d1320;
+    }
+}

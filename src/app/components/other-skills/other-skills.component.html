@@ -1,1 +1,107 @@
-<p>other-skills works!</p>
+<h2 class="hobHeading">Hobbies</h2>
+<div class="classMain">
+    <div class="center">
+        <div class="article-card">
+            <div class="content">
+                <p class="title">Football</p>
+            </div>
+            <img src="https://images.pexels.com/photos/3148452/pexels-photo-3148452.jpeg?cs=srgb&dl=pexels-stanley-morales-3148452.jpg&fm=jpg"
+                alt="article-cover" />
+        </div>
+    </div>
+    <div class="center">
+        <div class="article-card">
+            <div class="content">
+                <p class="title">Music</p>
+            </div>
+            <img src="https://thumbs.dreamstime.com/b/group-musical-instruments-including-guitar-drum-keyboard-tambourine-microphone-group-musical-instruments-98809835.jpg"
+                alt="article-cover" />
+        </div>
+    </div>
+    <div class="center">
+        <div class="article-card">
+            <div class="content">
+                <p class="title">Bike Riding</p>
+            </div>
+            <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2021/03/10114611/Inside-Image-Horizontal-22.jpg"
+                alt="article-cover" />
+        </div>
+    </div>
+</div>
+
+<h2 class="hobHeading">Achievments</h2>
+<div class="classMain">
+    <div class="center" (click)="redHatPopup = true">
+        <div class="article-card cardPointer">
+            <div class="content">
+                <button class="cerBtn" (click)="redHatPopup = true">Show Certificate</button>
+            </div>
+            <img src="https://mspoweruser.com/wp-content/uploads/2016/06/Redhat-Linux-Dot-NEt.jpg"
+                alt="article-cover" />
+        </div>
+    </div>
+    <div class="center" (click)="sihPopup = true">
+        <div class="article-card cardPointer">
+            <div class="content">
+                <button class="cerBtn" (click)="sihPopup = true">Show Certificate</button>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAawpJ5EqBuxEtGEYFYzVd6tlbNlPdMFs7gQ6CsVnZWSQJCXd5o4EDsZkYR_WjMmP9bkY&usqp=CAU"
+                alt="article-cover" />
+        </div>
+    </div>
+</div>
+
+<h2 class="hobHeading">Languages</h2>
+<div class="classMain">
+    <div class="center">
+        <div class="article-card">
+            <div class="content">
+                <p class="title titlee">English</p>
+                <span class="datee">Advanced</span>
+            </div>
+            <img src="https://media.istockphoto.com/id/1047570732/vector/english.jpg?s=612x612&w=0&k=20&c=zgafUJxCytevU-ZRlrZlTEpw3mLlS_HQTIOHLjaSPPM="
+                alt="article-cover" />
+        </div>
+    </div>
+    <div class="center">
+        <div class="article-card">
+            <div class="content">
+                <p class="title titlee">Hindi</p>
+                <span class="datee">Professional</span>
+            </div>
+            <img src="https://ohfact.com/wp-content/uploads/2016/12/Hindi-1280x720.jpg"
+                alt="article-cover" />
+        </div>
+    </div>
+    <div class="center">
+        <div class="article-card">
+            <div class="content">
+                <p class="title titlee">Marathi</p>
+                <span class="datee">Native</span>
+            </div>
+            <img src="https://vajiramandravi.s3.us-east-1.amazonaws.com/media/2022/1/14/9/26/31/marathiiii.jpg"
+                alt="article-cover" />
+        </div>
+    </div>
+</div>
+<div class="nextBtn">
+    <button class="btnNext" (click)="seeResume()">Would You like to see my Resume ?</button>
+</div>
+
+<div class="overlay" *ngIf="redHatPopup">
+    <div class="popup">
+        <a class="close" (click)="redHatPopup = false">&times;</a>
+        <div class="content">
+        <img src="assets/redHat.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="overlay" *ngIf="sihPopup">
+    <div class="popup">
+        <a class="close" (click)="sihPopup = false">&times;</a>
+        <div class="content">
+        <img src="assets/sih.jpg" alt="">
+        </div>
+    </div>
+</div>

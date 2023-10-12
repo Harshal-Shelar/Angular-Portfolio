@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-other-skills',
@@ -7,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OtherSkillsComponent implements OnInit {
 
-  constructor() { }
+  redHatPopup : any = false;
+  sihPopup :any = false;
+  constructor(private router : Router) { }
 
   ngOnInit(): void {
+  }
+
+  seeResume(){
+    this.router.navigate(['/resume']);
+  }
+
+  redHat(){
+
+  }
+
+  sih(){
+
   }
 
 }
