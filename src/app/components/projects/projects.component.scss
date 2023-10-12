@@ -1,7 +1,13 @@
 .main {
   margin: 0 auto;
 }
-
+.heading{
+  text-align: center;
+  font-size: 40px;
+  font-family: math;
+  color: #7c93c6;
+  text-shadow: rgb(153, 153, 153) 1px 0 3px;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +20,7 @@
   display: flex;
   padding: 1rem;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
 }
 
 .card_image {
@@ -41,7 +47,7 @@
 .card {
   background-color: #7c93c6;
   border-radius: 20px;
-  box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 15px 10px rgba(146, 146, 146, 0.25);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -77,9 +83,9 @@
   font-family: 'Lobster', cursive;
   font-size: 40px;
   line-height: 72px;
-  margin-top: -30px;
+  margin-top: -15px;
   margin-bottom: 24px;
-  text-shadow: black 1px 0 15px;
+  text-shadow: black 1px 0 5px;
   color: #0d1320;
 }
 
@@ -95,13 +101,13 @@
 .card_price {
   position: relative;
   top: 10px;
-  right: 16px;
-  text-align: right;
+  left: 10px;
+  text-align: left;
   color: black;
   font-family: monospace;
   height: 24px;
   font-size: 36px;
-  font-weight: 400;
+  font-weight: bold;
   text-shadow: black 3px 0px 6px;
 }
 
@@ -118,4 +124,25 @@
   position: relative;
   bottom: calc(100% - 2.5em);
   left: 1em;
+}
+
+.skill{
+  text-align: center;
+  margin-top: 2rem;
+
+  .skillBtn{
+    padding: 1rem;
+    border: 3px solid #7c93c6;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #7c93c6;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .skillBtn:hover{
+    border: 3px solid #0d1320;
+    background-color: #7c93c6;
+    color: #0d1320;
+  }
 }

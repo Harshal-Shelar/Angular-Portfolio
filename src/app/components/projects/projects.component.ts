@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-projects',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router : Router) { }
 
   ngOnInit(): void {
   }
 
+  openMeanCrud(){
+    window.open("https://github.com/Harshal-Shelar/MEAN-CRUD/tree/frontEnd");
+  }
+
+  openMernLogin(){
+    window.open("https://github.com/Harshal-Shelar/MERN-Login-CRUD/tree/frontEnd");
+  }
+
+  openSkills(){
+    this.router.navigate(['/skills']);
+  }
 }

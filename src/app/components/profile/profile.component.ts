@@ -15,11 +15,11 @@ export class ProfileComponent implements OnInit {
   }
 
   openGithub(){
-
+    window.open("https://github.com/Harshal-Shelar");
   }
 
   openLinkedin(){
-    
+    window.open("https://www.linkedin.com/in/harshal-shelar-a562b8154/");
   }
 
   openWork(){

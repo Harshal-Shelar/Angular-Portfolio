@@ -15,6 +15,9 @@
             border-radius: 15px;
             cursor: pointer;
         }
+        .img:hover{
+            box-shadow: 1px 1px 10px 1px white;
+        }
     }
     .titles{
         .mainUl{
@@ -25,9 +28,12 @@
             li{
                 color: white;
                 font-size: 20px;
-                font-family: math;
+                font-family: monospace;
                 cursor: pointer;
                 color: #7c93c6;
+            }
+            li:hover{
+                text-shadow: rgb(211, 211, 211) 3px 0px 6px;
             }
         }
     }
