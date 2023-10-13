@@ -21,10 +21,11 @@
     background-color: transparent;
     border-radius: 10px;
     color: #7c93c6;
-    font-size: large;
+    font-size: 20px;
     cursor: pointer;
     font-weight: bold;
     margin-top: 2rem;
+    font-family: monospace;
 }
 
 .btnNext:hover {
