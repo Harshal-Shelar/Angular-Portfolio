@@ -14,3 +14,18 @@
         </ul>
     </div>
 </div>
+<i class="fa fa-bars" (click)="openSidenav = true"></i>
+<div class="sidenav">
+    <div *ngIf="openSidenav">
+        <ul>
+            <li routerLink="/profile" (click)="openSidenav = false"> <i class="fa fa-user-circle"></i> Profile</li>
+            <li routerLink="/work" (click)="openSidenav = false"><i class="fa fa-folder"></i>Work</li>
+            <li routerLink="/projects" (click)="openSidenav = false"><i class="fa fa-calendar-check-o"></i>Projects</li>
+            <li routerLink="/skills" (click)="openSidenav = false"> <i class="fa fa-bullseye"></i> Skills</li>
+            <li routerLink="/education" (click)="openSidenav = false"> <i class="fa fa-graduation-cap"></i> Education</li>
+            <li routerLink="/otherSkills" (click)="openSidenav = false"> <i class="fa fa-soccer-ball-o"></i> Activities</li>
+            <li routerLink="/resume" (click)="openSidenav = false"> <i class="fa fa-vcard-o"></i> Resume</li>
+            <li (click)="openSidenav = false"> <i class="fa fa-close"></i> Close</li>
+        </ul>
+    </div>
+</div>

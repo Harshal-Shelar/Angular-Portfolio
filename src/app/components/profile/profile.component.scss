@@ -1,7 +1,6 @@
 .mainProfile {
   padding: 2rem;
   display: inline;
-  width: 100%;
 
   .nameImage {
     display: flex;
@@ -165,6 +164,32 @@
       background-color: #7c93c6;
       border: 3px solid #0d1320;
       color: #0d1320;
+    }
+  }
+}
+
+@media (max-width : 767px) {
+  .mainProfile{
+    margin-top: 2rem;
+    text-align: center;
+
+    .nameImage{
+      display: inline;
+      text-align: center;
+
+    }
+    .otherMainInfo{
+      display: inline;
+      text-align: center;
+
+      .mailMain{
+        text-align: center;
+        display: inline;
+
+        .fa-envelope-o{
+          text-align: center;
+        }
+      }
     }
   }
 }

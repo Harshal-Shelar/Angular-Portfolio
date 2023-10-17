@@ -45,7 +45,7 @@
 }
 
 .card {
-  background-color: #7c93c6;
+  background-color: #292929;
   border-radius: 20px;
   box-shadow: 1px 1px 15px 10px rgba(146, 146, 146, 0.25);
   display: flex;
@@ -56,14 +56,15 @@
     text-align: right;
 
     .projectCodeBtn{
-        margin: -1rem 1rem 1rem;
+        margin: 2rem 1rem 1rem;
         background-color: transparent;
-        border: 3px solid #0d1320;
+        border: 3px solid white;
         padding: 1rem;
         font-size: 16px;
         cursor: pointer;
         border-radius: 10px;
         font-weight: bold;
+        color: white;
     }
     .projectCodeBtn:hover{
         background-color: #0d1320;
@@ -86,11 +87,11 @@
   margin-top: -15px;
   margin-bottom: 24px;
   text-shadow: black 1px 0 2px;
-  color: #0d1320;
+  color: rgb(255, 208, 0);
 }
 
 .card_text {
-  color:#0d1320;
+  color:white;
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   p {
@@ -106,10 +107,10 @@
   top: 10px;
   left: 10px;
   text-align: left;
-  color: black;
+  color:#7c93c6;
   font-family: monospace;
   height: 24px;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   text-shadow: black 3px 0px 6px;
 }
@@ -147,5 +148,11 @@
     border: 3px solid #0d1320;
     background-color: #7c93c6;
     color: #0d1320;
+  }
+}
+
+@media (max-width : 767px) {
+  .mainClass{
+    margin-top: 2rem;
   }
 }

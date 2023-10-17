@@ -1,24 +1,27 @@
-<h2 class="heading">Work Experience</h2>
-<div class="mainClass" *ngFor="let data of companyCardData">
-    <div class="images">
-        <img src={{data.img}} alt="">
-    </div>
-    <div class="mainInfo">
-        <h2 class="title">
-            {{data.name}}
-        </h2>
-        <h3 class="disg">
-            {{data.position}}
-        </h3>
-        <hr>
-        <p class="details">
-            {{data.details}}
-        </p>
-        <div class="dateAndExp">
-            <h3 class="date">
-                {{data.date}}
-            </h3>
-            <!-- <button class="expBtn">Experience Letter</button> -->
+<div class="mainClass">
+    <h2 class="heading">Work Experience</h2>
+    <div class="innerClass">
+        <div class="cardClass" *ngFor="let data of companyCardData">
+            <div class="images">
+                <img src={{data.img}} alt="">
+            </div>
+            <div class="mainInfo">
+                <h2 class="title">
+                    {{data.name}}
+                </h2>
+                <h3 class="disg">
+                    {{data.position}}
+                </h3>
+                <hr>
+                <p class="details">
+                    {{data.details}}
+                </p>
+                <div class="dateAndExp">
+                    <h3 class="date">
+                        {{data.date}}
+                    </h3>
+                </div>
+            </div>
         </div>
     </div>
 </div>

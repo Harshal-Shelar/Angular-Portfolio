@@ -1,79 +1,128 @@
-.heading{
-    font-size: 40px;
-    text-align: center;
-    color: #7c93c6;
-    font-family: math;
-    margin-bottom: 0;
-    text-shadow: rgb(153, 153, 153) 1px 0 3px;
-}
-.mainClass{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    width: 50%;
-    margin: 2rem auto 4rem;
-    border: 1px solid rgb(60, 60, 60);
-    border-radius: 15px;
-    background-color: #292929;
-    padding: 1rem;
-    box-shadow: 5px 5px 10px 1px rgb(54, 54, 54);
+.mainClass {
 
-    .images{
-        img{
-            height: 100%;
-            width: auto;
-        }
+    .heading {
+        font-size: 40px;
+        text-align: center;
+        color: #7c93c6;
+        font-family: math;
+        margin-bottom: 0;
+        text-shadow: rgb(153, 153, 153) 1px 0 3px;
     }
-    .mainInfo{
+
+    .innerClass {
         display: inline;
-        .title{
-            font-size: 35px;
-            margin: 5px 0 0;
-            font-family: math;
-            color: white;
-        }
-        .disg{
-            font-size: 25px;
-            margin: 5px 0 0;
-            color : rgb(255, 208, 0);
-            font-family: monospace;
-        }
-        .details{
-            font-family: monospace;
-            font-size: 20px;
-            margin: 5px 0 0;
-            color: white;
-        }
-        .dateAndExp{
+
+        .cardClass {
             display: flex;
-            justify-content: space-between;
+            gap: 1rem;
+            align-items: center;
+            width: 50%;
+            margin: 2rem auto 4rem;
+            border: 1px solid rgb(60, 60, 60);
+            border-radius: 15px;
+            background-color: #292929;
+            padding: 1rem;
+            box-shadow: 5px 5px 10px 1px rgb(54, 54, 54);
 
-            .date{
-                font-size: 25px;
-                font-family: math;
-                margin: 15px 0 0;
-                color : #7c93c6
+            .images {
+                img {
+                    height: 100%;
+                    width: auto;
+                }
             }
 
-            .expBtn{
-                background-color: transparent;
-                border: 2px solid white;
-                border-radius: 10px;
-                font-family: monospace;
-                color: white;
-                cursor: pointer;
-                font-weight: bold;
-            }
-            .expBtn:hover{
-                background-color: white;
-                color: black;
-                border: 2px solid black;
-                box-shadow: 0px 0px 10px 2px white;
+            .mainInfo {
+                display: inline;
+
+                .title {
+                    font-size: 35px;
+                    margin: 5px 0 0;
+                    font-family: math;
+                    color: white;
+                }
+
+                .disg {
+                    font-size: 25px;
+                    margin: 5px 0 0;
+                    color: rgb(255, 208, 0);
+                    font-family: monospace;
+                }
+
+                .details {
+                    font-family: monospace;
+                    font-size: 20px;
+                    margin: 5px 0 0;
+                    color: white;
+                }
+
+                .dateAndExp {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .date {
+                        font-size: 25px;
+                        font-family: math;
+                        margin: 15px 0 0;
+                        color: #7c93c6
+                    }
+
+                    .expBtn {
+                        background-color: transparent;
+                        border: 2px solid white;
+                        border-radius: 10px;
+                        font-family: monospace;
+                        color: white;
+                        cursor: pointer;
+                        font-weight: bold;
+                    }
+
+                    .expBtn:hover {
+                        background-color: white;
+                        color: black;
+                        border: 2px solid black;
+                        box-shadow: 0px 0px 10px 2px white;
+                    }
+                }
             }
         }
+
+    }
+
+    .innerClass:hover {
+        box-shadow: 0px 0px 15px 7px rgb(104, 104, 104);
+        transition: 0.5s;
     }
 }
-.mainClass:hover{
-    box-shadow: 0px 0px 15px 7px rgb(104, 104, 104);
-    transition: 0.5s;
+
+
+@media (max-width : 767px) {
+    .mainClass {
+        width: 80%;
+        margin: 0 auto;
+
+        .innerClass {
+            display: inline;
+            
+            .cardClass {
+                background-color: transparent;
+                margin-bottom: 7rem;
+                padding: 1rem;
+                border-radius: none;
+                border: none;
+                display: inline;
+                box-shadow: none;
+
+                .images {
+                    text-align: center;
+
+                    img {
+                        height: 7rem;
+                        width: auto;
+                        margin: 2rem 0;
+                    }
+                }
+            }
+
+        }
+    }
 }

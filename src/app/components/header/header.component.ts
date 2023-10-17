@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  openSidenav : any= false;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  showSidenav(){
+    this.openSidenav = true;
+  }
 }

@@ -1,11 +1,12 @@
 $color-color: hsl(0, 0%, 100%);
 
 $color-html: hsl(15, 100%, 60%);
-$color-css: hsl(200, 100%, 60%);
 $color-scss: hsl(220, 100%, 60%);
 $color-js: hsl(60, 100%, 60%);
-$color-ts: hsl(220, 100%, 60%);
+$color-mysql: hsl(220, 100%, 60%);
+$color-mongodb: hsl(110, 100%, 60%);
 $color-node: hsl(110, 100%, 60%);
+$color-express: hsl(0, 0%, 80%);
 $color-react: hsl(180, 100%, 60%);
 $color-angular: hsl(0, 100%, 60%);
 $color-corejava: hsl(0, 100%, 60%);
@@ -20,7 +21,7 @@ $porcent-node: 70;
 $porcent-express: 70;
 $porcent-mysql: 65;
 $porcent-mongodb: 65;
-$porcent-git: 75;
+$porcent-git: 85;
 $porcent-corejava: 65;
 
 @function strokeDashoffset($num) {
@@ -110,34 +111,43 @@ $porcent-corejava: 65;
         filter: drop-shadow(0 0 5px $color-js);
     }
 
-    &-ts {
-        filter: drop-shadow(0 0 5px $color-ts);
-    }
-
-    &-node {
-        filter: drop-shadow(0 0 5px $color-node);
+    &-angular {
+        filter: drop-shadow(0 0 5px $color-angular);
     }
 
     &-react {
         filter: drop-shadow(0 0 5px $color-react);
     }
 
-    &-angular {
-        filter: drop-shadow(0 0 5px $color-angular);
+    &-node {
+        filter: drop-shadow(0 0 5px $color-node);
     }
 
-    &-vue {
+    &-express {
+        filter: drop-shadow(0 0 5px $color-express);
+    }
+
+    &-mysql {
+        filter: drop-shadow(0 0 5px $color-mysql);
+    }
+
+    &-mongodb {
+        filter: drop-shadow(0 0 5px $color-mongodb);
+    }
+
+    &-git {
         filter: drop-shadow(0 0 5px $color-git);
     }
+
+    &-corejava {
+        filter: drop-shadow(0 0 5px $color-corejava);
+    }
+
 }
 
 .circle {
     &-html {
         animation: anim_circle-html 1s ease-in-out forwards;
-    }
-
-    &-css {
-        animation: anim_circle-css 1s ease-in-out forwards;
     }
 
     &-scss {
@@ -148,24 +158,36 @@ $porcent-corejava: 65;
         animation: anim_circle-js 1s ease-in-out forwards;
     }
 
-    &-ts {
-        animation: anim_circle-ts 1s ease-in-out forwards;
-    }
-
-    &-node {
-        animation: anim_circle-node 1s ease-in-out forwards;
+    &-angular {
+        animation: anim_circle-angular 1s ease-in-out forwards;
     }
 
     &-react {
         animation: anim_circle-react 1s ease-in-out forwards;
     }
 
-    &-angular {
-        animation: anim_circle-angular 1s ease-in-out forwards;
+    &-node {
+        animation: anim_circle-node 1s ease-in-out forwards;
     }
 
-    &-vue {
-        animation: anim_circle-vue 1s ease-in-out forwards;
+    &-express {
+        animation: anim_circle-express 1s ease-in-out forwards;
+    }
+
+    &-mysql {
+        animation: anim_circle-mysql 1s ease-in-out forwards;
+    }
+
+    &-mongodb {
+        animation: anim_circle-mongodb 1s ease-in-out forwards;
+    }
+
+    &-git {
+        animation: anim_circle-git 1s ease-in-out forwards;
+    }
+
+    &-corejava {
+        animation: anim_circle-corejava 1s ease-in-out forwards;
     }
 }
 
@@ -206,43 +228,47 @@ $porcent-corejava: 65;
     }
 }
 
-@keyframes anim_circle-ts {
+@keyframes anim_circle-angular {
     to {
         stroke-dashoffset: strokeDashoffset($porcent-angular);
     }
 }
 
-@keyframes anim_circle-node {
+@keyframes anim_circle-react {
     to {
         stroke-dashoffset: strokeDashoffset($porcent-react);
     }
 }
 
-@keyframes anim_circle-react {
+@keyframes anim_circle-node {
     to {
         stroke-dashoffset: strokeDashoffset($porcent-node);
     }
 }
-
-@keyframes anim_circle-angular {
+@keyframes anim_circle-express {
     to {
         stroke-dashoffset: strokeDashoffset($porcent-express);
     }
 }
+@keyframes anim_circle-mysql {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-mysql);
+    }
+}
 
-@keyframes anim_circle-vue {
+@keyframes anim_circle-mongodb {
     to {
         stroke-dashoffset: strokeDashoffset($porcent-mongodb);
     }
 }
 
-@keyframes anim_circle-vue {
+@keyframes anim_circle-git {
     to {
         stroke-dashoffset: strokeDashoffset($porcent-git);
     }
 }
 
-@keyframes anim_circle-vue {
+@keyframes anim_circle-corejava {
     to {
         stroke-dashoffset: strokeDashoffset($porcent-corejava);
     }
