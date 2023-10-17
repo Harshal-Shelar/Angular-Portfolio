@@ -1,101 +1,115 @@
-.mainClass {
-    display: inline-flex;
-    margin: 2rem;
+.main {
+    width: 80%;
     text-align: center;
+    margin: 0 auto;
 
-    .container {
-        margin: 0 auto;
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: math;
+        color: #7c93c6;
+        text-shadow: rgb(153, 153, 153) 1px 0 3px;
+    }
 
-        .card {
-            position: relative;
-            width: 230px;
-            // background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            height: 300px;
-            border-radius: 4px;
-            text-align: center;
-            overflow: hidden;
-            transition: 0.5s;
-            border: 1px solid #7c93c6;
-            box-shadow: 0px 0px 10px 1px #333f5c;
+    .mainClass {
+        display: inline-flex;
+        margin: 2rem;
+        text-align: center;
 
-            .box {
-                .percent {
-                    position: relative;
-                    width: 150px;
-                    height: 150px;
-                    border-radius: 50%;
-                    box-shadow: inset 0 0 50px #000;
-                    background: #222;
-                    z-index: 1000;
+        .container {
+            margin: 0 auto;
 
-                    svg {
+            .card {
+                position: relative;
+                width: 230px;
+                // background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                border-radius: 4px;
+                text-align: center;
+                overflow: hidden;
+                transition: 0.5s;
+                border: 1px solid #7c93c6;
+                box-shadow: 0px 0px 10px 1px #333f5c;
+
+                .box {
+                    .percent {
                         position: relative;
                         width: 150px;
                         height: 150px;
-                        z-index: 1000;
-                    }
-
-                    .num {
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 100%;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
                         border-radius: 50%;
+                        box-shadow: inset 0 0 50px #000;
+                        background: #222;
+                        z-index: 1000;
 
-                        img {
-                            height: 4.5rem;
-                            width: auto;
+                        svg {
+                            position: relative;
+                            width: 150px;
+                            height: 150px;
+                            z-index: 1000;
+                        }
+
+                        .num {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+
+                            img {
+                                height: 4.5rem;
+                                width: auto;
+                            }
+                        }
+
+                        h2 {
+                            color: #cfcfcf;
+                            font-weight: 700;
+                            font-size: 40px;
+                            transition: 0.5s;
+                        }
+
+                        span {
+                            color: #777;
+                            font-size: 24px;
+                            transition: 0.5s;
                         }
                     }
 
-                    h2 {
-                        color: #cfcfcf;
+                    .text {
+                        position: relative;
+                        color: #7c93c6;
+                        margin-top: 20px;
                         font-weight: 700;
-                        font-size: 40px;
+                        font-size: 22px;
+                        letter-spacing: 2px;
                         transition: 0.5s;
                     }
-
-                    span {
-                        color: #777;
-                        font-size: 24px;
-                        transition: 0.5s;
-                    }
-                }
-
-                .text {
-                    position: relative;
-                    color: #7c93c6;
-                    margin-top: 20px;
-                    font-weight: 700;
-                    font-size: 22px;
-                    letter-spacing: 2px;
-                    transition: 0.5s;
                 }
             }
-        }
 
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
-        }
+            .card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+            }
 
-        .card:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -50%;
-            width: 100%;
-            height: 100%;
-            background: rgba(255, 255, 255, .03);
-            pointer-events: none;
-            z-index: 1;
+            .card:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -50%;
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 255, 255, .03);
+                pointer-events: none;
+                z-index: 1;
+            }
         }
     }
 }

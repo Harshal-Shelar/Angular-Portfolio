@@ -12,7 +12,7 @@ export class SkillsComponent implements OnInit {
     {name : 'HTML', percent : '90', icon:'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png'},
     {name : 'SCSS', percent : '90', icon:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png'},
     {name : 'Javascript', percent : '80', icon:'https://logosdownload.com/logo/javascript-logo-big.png'},
-    {name : 'Angular', percent : '80', icon:'https://assets.stickpng.com/images/5847ea22cef1014c0b5e4833.png'},
+    {name : 'Angular', percent : '80', icon:'https://static-00.iconduck.com/assets.00/angular-icon-966x1024-dzl2a826.png'},
     {name : 'React JS', percent : '70', icon:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'},
     {name : 'Node JS', percent : '60', icon:'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png'},
     {name : 'Express JS', percent : '60', icon:'https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png'},
