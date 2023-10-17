@@ -1,69 +1,24 @@
-<h1 class="heading">Work Experience</h1>
-<div class="blog-card">
-    <div class="meta">
-        <div class="photo" style="background-image: url(../../../assets/aquarious.jpg)"></div>
-        <ul class="details">
-            <li class="date">May. 2, 2023 to Aug. 31, 2023</li>
-        </ul>
+<h2 class="heading">Work Experience</h2>
+<div class="mainClass" *ngFor="let data of companyCardData">
+    <div class="images">
+        <img src={{data.img}} alt="">
     </div>
-    <div class="description">
-        <h1>Aquarious Technology (Contract)</h1>
-        <h2>MEAN Stack Developer</h2>
-        <p> <b>1)</b> CZ Masters is an Angular-based responsive web application, where the
-            admin has access all over the project, he can accept the request of a user
-            who has requested the new property. <br>
-            <b>2)</b> Admin can manage the properties, and issues regarding the owned
-            properties. The user can check the properties listed by the admin and also
-            can buy a new property and register the complaints if he has one. <br>
-            <b>3)</b> The Admin can manage the notifications and the social media handles. And
-            can communicate with staff and vendors for inquiries and issues with the
-            property
+    <div class="mainInfo">
+        <h2 class="title">
+            {{data.name}}
+        </h2>
+        <h3 class="disg">
+            {{data.position}}
+        </h3>
+        <hr>
+        <p class="details">
+            {{data.details}}
         </p>
-
+        <div class="dateAndExp">
+            <h3 class="date">
+                {{data.date}}
+            </h3>
+            <!-- <button class="expBtn">Experience Letter</button> -->
+        </div>
     </div>
-</div>
-<div class="blog-card alt">
-    <div class="meta">
-        <div class="photo" style="background-image: url(../../../assets/fintech.jpg)"></div>
-        <ul class="details">
-            <li class="date">Nov. 28, 2022 to March. 10, 2023</li>
-        </ul>
-    </div>
-    <div class="description">
-        <h1>Fintech Global Center</h1>
-        <h2>Front End Developer</h2>
-        <p> <b>1)</b> NoCode app is an Angular-based responsive web app that is basically created
-            to reduce the workload of creating applications through coding. <br>
-            <b>2)</b> Also, in this project, you can create your own style application according to your
-            needs and if you want to buy domains then you have to pay for that. Also, you
-            can create n number of applications. <br>
-            <b>3)</b> There are some components like Post, Newsletter, Email, SMS, and Admin
-            going through all these components you can create your application
-        </p>
-    </div>
-</div>
-
-<div class="blog-card alt">
-    <div class="meta">
-        <div class="photo" style="background-image: url(../../../assets/intellect.png)"></div>
-        <ul class="details">
-            <li class="date">Jul. 26 2021 to Sept. 14 2022</li>
-        </ul>
-    </div>
-    <div class="description">
-        <h1>Intellect Design Arena</h1>
-        <h2>Software Engineer</h2>
-        <p> <b>1)</b> Worked as a front-end developer in an iGTB project, for Transaction Limit
-            Management product for Barkleys and Lloyds Banking Group. <br>
-            <b>2)</b> The Product is used to give the decision of Pay or No Pay whether the
-            transaction can be done or not depending on the Limits and Balances in the
-            Account. <br>
-            <b>3)</b> My Role:- Created a structure that shows the hierarchy of Customer Group,
-            Customer, Account Group, and Account, which represents the tree structure of
-            limits and balances of children and parents
-        </p>
-    </div>
-</div>
-<div class="nextBtn">
-    <button (click)="showProjects()" class="btnNext shadowBtn">Show Projects <i class="fa fa-arrow-right"></i> </button>
 </div>

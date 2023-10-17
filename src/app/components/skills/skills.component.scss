@@ -1,167 +1,249 @@
-.main {
-    width: 80%;
+$color-color: hsl(0, 0%, 100%);
+
+$color-html: hsl(15, 100%, 60%);
+$color-css: hsl(200, 100%, 60%);
+$color-scss: hsl(220, 100%, 60%);
+$color-js: hsl(60, 100%, 60%);
+$color-ts: hsl(220, 100%, 60%);
+$color-node: hsl(110, 100%, 60%);
+$color-react: hsl(180, 100%, 60%);
+$color-angular: hsl(0, 100%, 60%);
+$color-corejava: hsl(0, 100%, 60%);
+$color-git: hsl(15, 100%, 60%);
+
+$porcent-html: 95;
+$porcent-scss: 90;
+$porcent-js: 85;
+$porcent-angular: 80;
+$porcent-react: 75;
+$porcent-node: 70;
+$porcent-express: 70;
+$porcent-mysql: 65;
+$porcent-mongodb: 65;
+$porcent-git: 75;
+$porcent-corejava: 65;
+
+@function strokeDashoffset($num) {
+    @return 440 - (440 * $num) / 100;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    background-color: transparent;
+}
+
+.container__progressbars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 270px;
+    width: 100%;
+    min-height: 100%;
+}
+
+.progressbar {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    transform: rotate(-90deg);
+    margin: 1rem;
+}
+.prClass{
+    display: inline;
     text-align: center;
-    margin: 0 auto;
+    // border: 1px solid rgb(87, 87, 87);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgb(48, 48, 48);
+    margin: 2rem;
+    cursor: pointer;
 
-    h1 {
-        text-align: center;
-        font-size: 40px;
-        font-family: math;
+    h2{
         color: #7c93c6;
-        text-shadow: rgb(153, 153, 153) 1px 0 3px;
-    }
-
-    .mainClass {
-        display: inline-flex;
-        margin: 2rem;
-        text-align: center;
-
-        .container {
-            margin: 0 auto;
-
-            .card {
-                position: relative;
-                width: 230px;
-                // background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
-                display: inline-flex;
-                justify-content: center;
-                align-items: center;
-                height: 300px;
-                border-radius: 4px;
-                text-align: center;
-                overflow: hidden;
-                transition: 0.5s;
-                border: 1px solid #7c93c6;
-                box-shadow: 0px 0px 10px 1px #333f5c;
-
-                .box {
-                    .percent {
-                        position: relative;
-                        width: 150px;
-                        height: 150px;
-                        border-radius: 50%;
-                        box-shadow: inset 0 0 50px #000;
-                        background: #222;
-                        z-index: 1000;
-
-                        svg {
-                            position: relative;
-                            width: 150px;
-                            height: 150px;
-                            z-index: 1000;
-                        }
-
-                        .num {
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            width: 100%;
-                            height: 100%;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            border-radius: 50%;
-
-                            img {
-                                height: 4.5rem;
-                                width: auto;
-                            }
-                        }
-
-                        h2 {
-                            color: #cfcfcf;
-                            font-weight: 700;
-                            font-size: 40px;
-                            transition: 0.5s;
-                        }
-
-                        span {
-                            color: #777;
-                            font-size: 24px;
-                            transition: 0.5s;
-                        }
-                    }
-
-                    .text {
-                        position: relative;
-                        color: #7c93c6;
-                        margin-top: 20px;
-                        font-weight: 700;
-                        font-size: 22px;
-                        letter-spacing: 2px;
-                        transition: 0.5s;
-                    }
-                }
-            }
-
-            .card:hover {
-                transform: translateY(-10px);
-                box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
-            }
-
-            .card:before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: -50%;
-                width: 100%;
-                height: 100%;
-                background: rgba(255, 255, 255, .03);
-                pointer-events: none;
-                z-index: 1;
-            }
-        }
+        font-family: math;
     }
 }
-
-
-.percent .num h2 .card:hover .percent .num h2 span {
-    color: #fff;
+.prClass:hover{
+    box-shadow: 0px 0px 10px 7px rgb(146, 146, 146);
+    transition: 0.4s;
 }
 
-.card:hover .text {
-    color: #fff;
+.heading{
+    font-size: 40px;
+    text-align: center;
+    color: #7c93c6;
+    font-family: math;
+    margin-bottom: 0;
+    text-shadow: rgb(153, 153, 153) 1px 0 3px;
+}
+.progressbar__svg {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-
-
-svg circle {
+.progressbar__svg-circle {
     width: 100%;
     height: 100%;
     fill: none;
-    stroke: #191919;
     stroke-width: 10;
-    stroke-linecap: round;
-    transform: translate(5px, 5px);
-}
-
-svg circle:nth-child(2) {
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
+    stroke: hsl(0, 0%, 100%);
+    stroke-linecap: round;
+    transform: translate(5px, 5px); // stroke-width / 2
 }
 
-.card:nth-child(1) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 90) / 100);
-    stroke: rgb(255, 208, 0);
-}
-
-.eduBack {
-    text-align: center;
-
-    .eduBtn {
-        padding: 1rem;
-        border: 3px solid #7c93c6;
-        background-color: transparent;
-        border-radius: 10px;
-        color: #7c93c6;
-        font-size: large;
-        cursor: pointer;
-        font-weight: bold;
+.shadow {
+    &-html {
+        filter: drop-shadow(0 0 5px $color-html);
     }
 
-    .eduBtn:hover {
-        border: 3px solid #0d1320;
-        background-color: #7c93c6;
-        color: #0d1320;
+    &-scss {
+        filter: drop-shadow(0 0 5px $color-scss);
+    }
+
+    &-js {
+        filter: drop-shadow(0 0 5px $color-js);
+    }
+
+    &-ts {
+        filter: drop-shadow(0 0 5px $color-ts);
+    }
+
+    &-node {
+        filter: drop-shadow(0 0 5px $color-node);
+    }
+
+    &-react {
+        filter: drop-shadow(0 0 5px $color-react);
+    }
+
+    &-angular {
+        filter: drop-shadow(0 0 5px $color-angular);
+    }
+
+    &-vue {
+        filter: drop-shadow(0 0 5px $color-git);
+    }
+}
+
+.circle {
+    &-html {
+        animation: anim_circle-html 1s ease-in-out forwards;
+    }
+
+    &-css {
+        animation: anim_circle-css 1s ease-in-out forwards;
+    }
+
+    &-scss {
+        animation: anim_circle-scss 1s ease-in-out forwards;
+    }
+
+    &-js {
+        animation: anim_circle-js 1s ease-in-out forwards;
+    }
+
+    &-ts {
+        animation: anim_circle-ts 1s ease-in-out forwards;
+    }
+
+    &-node {
+        animation: anim_circle-node 1s ease-in-out forwards;
+    }
+
+    &-react {
+        animation: anim_circle-react 1s ease-in-out forwards;
+    }
+
+    &-angular {
+        animation: anim_circle-angular 1s ease-in-out forwards;
+    }
+
+    &-vue {
+        animation: anim_circle-vue 1s ease-in-out forwards;
+    }
+}
+
+.progressbar__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0.25em 0.5em;
+    color: hsl(0, 0%, 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.25em;
+    transform: translate(-50%, -50%) rotate(90deg);
+
+    img {
+        height: 4rem;
+        width: auto;
+    }
+}
+
+//  @keyframes
+
+@keyframes anim_circle-html {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-html);
+    }
+}
+
+
+@keyframes anim_circle-scss {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-scss);
+    }
+}
+
+@keyframes anim_circle-js {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-js);
+    }
+}
+
+@keyframes anim_circle-ts {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-angular);
+    }
+}
+
+@keyframes anim_circle-node {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-react);
+    }
+}
+
+@keyframes anim_circle-react {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-node);
+    }
+}
+
+@keyframes anim_circle-angular {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-express);
+    }
+}
+
+@keyframes anim_circle-vue {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-mongodb);
+    }
+}
+
+@keyframes anim_circle-vue {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-git);
+    }
+}
+
+@keyframes anim_circle-vue {
+    to {
+        stroke-dashoffset: strokeDashoffset($porcent-corejava);
     }
 }

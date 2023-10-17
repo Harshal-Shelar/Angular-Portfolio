@@ -1,24 +1,150 @@
-<div class="main">
-    <h1>Technical Skills</h1>
-    <div class="mainClass" *ngFor="let data of skillsData">
-        <div class="container">
-            <div class="card">
-                <div class="box">
-                    <div class="percent">
-                        <svg>
-                            <circle cx="70" cy="70" r="70"></circle>
-                            <circle cx="70" cy="70" r="70"></circle>
-                        </svg>
-                        <div class="num">
-                            <img src={{data.icon}} alt="">
-                        </div>
-                    </div>
-                    <h2 class="text">{{data.name}}</h2>
-                </div>
-            </div>
+<!-- <div class="mainClass">
+    <div class="innerClass">
+        <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" alt="">
+        </div>
+        <div class="technologies">
+            <h3>HTML</h3>
+            <div class="progress"></div>
         </div>
     </div>
-</div>
-<div class="nextBtn">
-    <button class="btnNext shadowBtn" (click)="showEducation()">Education Background <i class="fa fa-arrow-right"></i></button>
+</div> -->
+<h2 class="heading">My Technical Skills</h2>
+<div class="container">
+    <div class="container__progressbars">
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"
+                        alt="">
+                </span>
+            </div>
+            <h2>HTML</h2>
+        </div>
+
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-scss shadow-scss"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-scss">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                        alt="">
+                </span>
+            </div>
+            <h2>SCSS</h2>
+        </div>
+
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-js shadow-js"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-js">
+                    <img src="https://logosdownload.com/logo/javascript-logo-big.png" alt="">
+                </span>
+            </div>
+            <h2>Javascript</h2>
+        </div>
+
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-angular shadow-angular"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-angular">
+                    <img src="https://static-00.iconduck.com/assets.00/angular-icon-966x1024-dzl2a826.png" alt="">
+                </span>
+            </div>
+            <h2>Angular</h2>
+        </div>
+
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-react shadow-react"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-react">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="">
+                </span>
+            </div>
+            <h2>React JS</h2>
+        </div>
+
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-node shadow-node"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-node">
+                    <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="">
+                </span>
+            </div>
+            <h2>Node JS</h2>
+        </div>
+
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-react shadow-react"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-react">
+                    <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png" alt="">
+                </span>
+            </div>
+            <h2>Express JS</h2>
+        </div>
+
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-scss shadow-scss"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-scss">
+                    <img src="https://pngimg.com/d/mysql_PNG23.png" alt="">
+                </span>
+            </div>
+            <h2>MySQL</h2>
+        </div>
+
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-vue shadow-node"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-node">
+                    <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png" alt="">
+                </span>
+            </div>
+            <h2>MongoDB</h2>
+        </div>
+
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-vue shadow-vue"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-vue">
+                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="">
+                </span>
+            </div>
+            <h2>Git, Github</h2>
+        </div>
+
+        <div class="prClass">
+            <div class="progressbar">
+                <svg class="progressbar__svg">
+                    <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-angular shadow-angular"> </circle>
+                </svg>
+                <span class="progressbar__text shadow-angular">
+                    <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png"
+                        alt="">
+                </span>
+            </div>
+            <h2>Core Java</h2>
+        </div>
+    </div>
 </div>
