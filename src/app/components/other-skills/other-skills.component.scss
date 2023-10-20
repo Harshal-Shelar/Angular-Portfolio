@@ -152,7 +152,7 @@
     border-radius: 1px;
 }
 
-@media (max-width : 767px) {
+@media (max-width : 939px) {
     .main{
         margin: 2rem auto 0;
         width: 80%;
@@ -160,8 +160,13 @@
 
         .classMain{
             display: inline;
-            margin: 2rem;
-            gap: 0;
+            margin: 2rem auto;
+
+            .center{
+                .article-card{
+                    margin-bottom: 4rem;
+                }
+            }
         }
     }
 }

@@ -168,7 +168,7 @@
   }
 }
 
-@media (max-width : 767px) {
+@media (max-width : 939px) {
   .mainProfile{
     margin-top: 2rem;
     text-align: center;
@@ -179,15 +179,32 @@
 
     }
     .otherMainInfo{
-      display: inline;
       text-align: center;
+      display: flow-root;
+      width: 70%;
 
       .mailMain{
         text-align: center;
         display: inline;
 
+        h2{
+          line-height: 30px;
+          letter-spacing: 3px;
+        }
         .fa-envelope-o{
           text-align: center;
+        }
+      }
+      .phoneMain{
+        h2{
+          line-height: 30px;
+          letter-spacing: 3px;
+        }
+      }
+      .addressMain{
+        h2{
+          line-height: 30px;
+          letter-spacing: 2px;
         }
       }
     }

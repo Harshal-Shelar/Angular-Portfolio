@@ -61,12 +61,13 @@
     ul{
         margin: 0;
         top: 0;
-        left: 0;
+        right: 15px;
         position: absolute;
         width: 50%;
         background-color: #292929;
         border-radius: 15px;
         text-align: left;
+        box-shadow: -5px -1px 10px 5px rgb(71, 71, 71);
 
         li{
             list-style: none;
