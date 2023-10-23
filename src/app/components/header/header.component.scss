@@ -40,9 +40,9 @@
     }
 }
 .fa-bars{
-    font-size: 40px;
+    font-size: 35px;
     top: 0;
-    margin: 1rem;
+    margin: 1rem 0 1rem;
     color: white;
 }
 .sidenav{
@@ -52,27 +52,21 @@
     z-index: 999;
     top: 10;
 
-    .fa-bars {
-        font-size: 40px;
-        position: fixed;
-        margin: 1rem;
-        color: white;
-    }
     ul{
         margin: 0;
         top: 0;
-        right: 15px;
         position: absolute;
-        width: 50%;
+        width: 60%;
         background-color: #292929;
         border-radius: 15px;
         text-align: left;
-        box-shadow: -5px -1px 10px 5px rgb(71, 71, 71);
+        padding-left: 10px;
+        box-shadow: 5px 1px 10px 5px rgb(71, 71, 71);
 
         li{
             list-style: none;
-            margin: 4rem 0;
-            font-size: 30px;
+            margin: 3rem 0;
+            font-size: 25px;
             color: white;
             font-family: math;
 

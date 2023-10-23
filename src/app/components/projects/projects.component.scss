@@ -156,4 +156,19 @@
     margin: 2rem auto 0;
     width: 90%;
   }
+  .card_title{
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .card_price{
+    font-size: 20px;
+  }
+  .card{
+    .projectCode{
+      .projectCodeBtn{
+        padding: 0.5rem;
+        font-size: 15px;
+      }
+    }
+  }
 }

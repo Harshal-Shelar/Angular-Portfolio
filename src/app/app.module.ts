@@ -13,6 +13,7 @@ import { OtherSkillsComponent } from './components/other-skills/other-skills.com
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
 import { PdfService } from './pdf.service';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PdfService } from './pdf.service';
     EducationComponent,
     ResumeComponent,
     OtherSkillsComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
