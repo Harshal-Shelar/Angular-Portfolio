@@ -16,7 +16,7 @@
             justify-content: center;
 
             .article-card {
-                width: 350px;
+                width: 100%;
                 height: 220px;
                 border-radius: 12px;
                 overflow: hidden;
@@ -42,6 +42,7 @@
                         font-weight: bold;
                         margin: 0;
                         font-size: 40px;
+                        font-family: monospace;
                     }
                 }
                 img {
@@ -158,6 +159,9 @@
         width: 80%;
         text-align: center;
 
+        .hobHeading{
+            font-size: 35px;
+        }
         .classMain{
             display: inline;
             margin: 2rem auto;

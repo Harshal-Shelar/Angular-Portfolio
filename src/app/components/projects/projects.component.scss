@@ -82,7 +82,7 @@
 
 .card_title {
   font-family: 'Lobster', cursive;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 60px;
   margin-top: -15px;
   margin-bottom: 24px;
@@ -110,7 +110,7 @@
   color:#7c93c6;
   font-family: monospace;
   height: 24px;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: bold;
   text-shadow: black 3px 0px 6px;
 }
@@ -155,6 +155,9 @@
   .mainClass{
     margin: 2rem auto 0;
     width: 90%;
+  }
+  .heading{
+    font-size: 35px;
   }
   .card_title{
     font-size: 20px;

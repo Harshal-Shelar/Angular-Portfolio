@@ -99,6 +99,9 @@
         width: 80%;
         margin: 0 auto;
 
+        .heading{
+            font-size: 35px;
+        }
         .innerClass {
             display: inline;
             
@@ -110,6 +113,12 @@
                 border: none;
                 display: inline;
                 box-shadow: none;
+
+                .mainInfo{
+                    .title{
+                        font-size: 30px;
+                    }
+                }
 
                 .images {
                     text-align: center;
