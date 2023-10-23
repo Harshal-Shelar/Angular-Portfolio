@@ -1,0 +1,54 @@
+.mainFooter {
+    margin: 4rem auto 4rem;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    border: 1px solid #7c93c6;
+    gap: 1.5rem;
+    box-shadow: 5px 5px 2px 0px rgb(60, 60, 60);
+    bottom: 0;
+
+    i {
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+
+        .tooltiptext {
+            visibility: hidden;
+            width: fit-content;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            margin-top: -2rem;
+            font-size: 20px;
+            font-family: monospace;
+          }
+    }
+
+    i:hover {
+        font-size: 40px;
+        transition: 0.3s;
+        text-shadow: rgb(211, 211, 211) 3px 0px 6px;
+        margin-top: -1.5rem;
+
+        .tooltiptext {
+            visibility: visible;
+            text-shadow:none;
+          }
+    }
+    i:after{
+        transition: 0.3s;
+    }
+}
+@media (max-width : 939px) {
+    .mainFooter{
+        visibility: hidden;
+        display: none;
+    }
+}
