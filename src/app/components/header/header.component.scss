@@ -52,8 +52,6 @@
     transition: 0.7s;
     z-index: 999;
     top: 10;
-    
-
     ul{
         margin: 0;
         top: 0;
@@ -81,20 +79,20 @@
         }
     }
 }
-@media (max-width : 933px) {
+@media (max-width : 939px) {
     .mainHeader{
         display: none;
         visibility: hidden;
     }
 }
 
-@media (min-width : 933px) {
+@media (min-width : 939px) {
     .sidenav{
         display: none;
         visibility: hidden;
     }
 }
-@media (min-width : 933px) {
+@media (min-width : 939px) {
     .fa-bars{
         display: none;
         visibility: hidden;
