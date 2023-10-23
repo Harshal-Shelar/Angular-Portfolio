@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header" [ngClass]="isBottom ? 'bottom' : 'top'">
     <i class="fa fa-bars" *ngIf="!openSidenav" (click)="openSidenav = true"></i>
     <i class="fa fa-close" *ngIf="openSidenav" (click)="openSidenav = false"></i>
     <h2>My Portfolio</h2>

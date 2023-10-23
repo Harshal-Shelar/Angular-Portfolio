@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  isBottom: any;
   openSidenav : any= false;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -15,5 +17,14 @@ export class HeaderComponent implements OnInit {
 
   showSidenav(){
     this.openSidenav = true;
+  }
+  
+  @HostListener('window:scroll', [])
+  onScroll() {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+      return this.isBottom = true;
+    } else {
+      return this.isBottom = false;
+    }
   }
 }
