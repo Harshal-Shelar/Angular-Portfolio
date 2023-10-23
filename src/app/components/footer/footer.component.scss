@@ -1,60 +1,74 @@
 .mainFooter {
-    margin: 4rem auto 4rem;
     width: fit-content;
     padding: 1rem;
     border-radius: 15px;
-    position: relative;
+    position: fixed;
     display: flex;
-    // text-align: left;
-    // align-items: center;
-    // border: 1px solid #7c93c6;
-    gap: 1.5rem;
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-    bottom: 0;
+    align-items: center;
+    float: left;
     z-index: 999;
-    background-color: #1b1b1b;
+    top: 50%;
+    bottom: 50%;
 
-    i {
-        font-size: 30px;
-        color: white;
-        cursor: pointer;
-
-        .tooltiptext {
-            visibility: hidden;
-            width: fit-content;
-            background-color: #1b1b1b;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px;
-            position: absolute;
-            z-index: 1;
-            margin-top: -1rem;
-            font-size: 20px;
-            font-family: monospace;
-            box-shadow: 0px 0px 10px 4px gray;
-          }
-    }
-
-    i:hover {
-        font-size: 40px;
-        transition: 0.3s;
-        text-shadow: rgb(211, 211, 211) 0px 0px 2px;
-        margin-top: -1.5rem;
-        color: rgb(255, 208, 0);
+    ul {
+        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+        padding-left: 0;
+        padding: 1rem;
+        border-radius: 15px;
+        text-align: center;
         z-index: 999;
+        background-color: #1b1b1b;
 
-        .tooltiptext {
-            visibility: visible;
-            text-shadow:none;
-          }
+        li {
+            list-style: none;
+            margin: 2rem 0;
+
+            i {
+                font-size: 30px;
+                color: white;
+                cursor: pointer;
+
+                .tooltiptext {
+                    visibility: hidden;
+                    width: fit-content;
+                    background-color: #1b1b1b;
+                    color: #fff;
+                    text-align: center;
+                    border-radius: 6px;
+                    padding: 5px;
+                    position: absolute;
+                    z-index: 1;
+                    margin-top: -1rem;
+                    font-size: 20px;
+                    font-family: monospace;
+                    box-shadow: 0px 0px 10px 4px gray;
+                }
+            }
+
+            i:hover {
+                font-size: 50px;
+                transition: 0.3s;
+                text-shadow: rgb(211, 211, 211) 0px 0px 2px;
+                // margin-right: -1.5rem;
+                color: rgb(255, 208, 0);
+                z-index: 999;
+
+                .tooltiptext {
+                    visibility: visible;
+                    text-shadow: none;
+                }
+            }
+
+            i:after {
+                transition: 0.3s;
+            }
+        }
     }
-    i:after{
-        transition: 0.3s;
-    }
+
 }
+
 @media (max-width : 939px) {
-    .mainFooter{
+    .mainFooter {
         visibility: hidden;
         display: none;
     }
