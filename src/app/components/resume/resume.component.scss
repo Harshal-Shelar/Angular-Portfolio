@@ -1,0 +1,71 @@
+.image {
+    text-align: center;
+
+    img {
+        height: 92%;
+        width: auto;
+    }
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: math;
+    color: #7c93c6;
+    text-shadow: rgb(153, 153, 153) 1px 0 3px;
+    margin: 3rem 0;
+}
+
+.btnDownload {
+    text-align: center;
+
+    .downloadBtn {
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        border: 3px solid #7c93c6;
+        background-color: #292929;
+        border-radius: 7px;
+        color: #7c93c6;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: bold;
+
+        a {
+            text-decoration: none;
+            color: #7c93c6;
+        }
+    }
+
+    .downloadBtn:hover {
+        border: 3px solid #0d1320;
+        background-color: #7c93c6;
+        color: #0d1320;
+        box-shadow: 1px 1px 10px 1px white;
+        transition: 0.3s;
+
+        a {
+            color: #0d1320;
+        }
+    }
+}
+
+@media (max-width : 939px) {
+    .image {
+        text-align: center;
+
+        img {
+            height: 92%;
+            width: 100%;
+        }
+    }
+    h2{
+        font-size: 30px;
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width : 939px) {
+    .marginTop {
+        margin-top: 6rem;
+    }
+}

@@ -197,7 +197,7 @@
         .disg{
           text-align: end;
           span{
-            font-size: 35px;
+            font-size: 30px;
           }
         }
       }
@@ -232,5 +232,10 @@
         }
       }
     }
+  }
+}
+@media (max-width : 939px) {
+  .marginTop{
+      margin-top: 6rem;
   }
 }

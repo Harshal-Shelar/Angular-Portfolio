@@ -165,7 +165,7 @@
         text-align: center;
 
         .hobHeading{
-            font-size: 35px;
+            font-size: 30px;
         }
         .classMain{
             display: inline;
@@ -177,5 +177,11 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width : 939px) {
+    .marginTop{
+        margin-top: 6rem;
     }
 }

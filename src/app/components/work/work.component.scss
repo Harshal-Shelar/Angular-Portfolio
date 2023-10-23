@@ -17,7 +17,7 @@
             gap: 1rem;
             align-items: center;
             width: 50%;
-            margin: 2rem auto 4rem;
+            margin: 4rem auto;
             border-radius: 15px;
             background-color: #292929;
             padding: 1rem;
@@ -99,7 +99,7 @@
         margin: 0 auto;
 
         .heading{
-            font-size: 35px;
+            font-size: 30px;
         }
         .innerClass {
             display: inline;
@@ -131,5 +131,11 @@
             }
 
         }
+    }
+}
+
+@media (max-width : 939px) {
+    .marginTop{
+        margin-top: 6rem;
     }
 }

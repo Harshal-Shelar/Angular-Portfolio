@@ -63,7 +63,7 @@
 @media (max-width : 939px) {
     .mainClass{
         h1{
-            font-size: 35px;
+            font-size: 30px;
         }
         .innerClass{
             display: inline;
@@ -74,5 +74,11 @@
                 width: 80%;
             }
         }
+    }
+}
+
+@media (max-width : 939px) {
+    .marginTop{
+        margin-top: 6rem;
     }
 }

@@ -4,7 +4,7 @@ declare const PDFObject: any;
 @Component({
   selector: 'app-resume',
   templateUrl: './resume.component.html',
-  styleUrls: ['./resume.component.css']
+  styleUrls: ['./resume.component.scss']
 })
 export class ResumeComponent implements OnInit {
 
