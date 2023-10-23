@@ -5,10 +5,13 @@
     border-radius: 15px;
     position: relative;
     display: flex;
+    // text-align: left;
+    // align-items: center;
     // border: 1px solid #7c93c6;
     gap: 1.5rem;
-    box-shadow: 3px 5px 15px -5px #7c93c6;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
     bottom: 0;
+    z-index: 999;
     background-color: #1b1b1b;
 
     i {
