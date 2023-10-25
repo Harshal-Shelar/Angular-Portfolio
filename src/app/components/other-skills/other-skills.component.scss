@@ -1,4 +1,5 @@
-.main{
+.main {
+
     .hobHeading {
         text-align: center;
         font-size: 40px;
@@ -7,56 +8,63 @@
         text-shadow: rgb(153, 153, 153) 1px 0 3px;
         margin: 3rem 0;
     }
-    .classMain {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
 
-        .center {
-            display: inline-flex;
+    .innerClass {
+       
+        .classMain {
+            display: flex;
             justify-content: center;
+            gap: 2rem;
 
-            .article-card {
-                width: 100%;
-                height: 220px;
-                border-radius: 12px;
-                overflow: hidden;
-                position: relative;
-                font-family: Arial, Helvetica, sans-serif;
-                transition: all 300ms;
-                box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+            .center {
+                display: inline-flex;
+                justify-content: center;
 
-                .content {
-                    text-align: center;
-                    box-sizing: border-box;
+                .article-card {
                     width: 100%;
-                    position: absolute;
-                    padding: 30px 20px 10px 20px;
-                    height: auto;
-                    bottom: 0;
-                    /* background: linear-gradient(transparent, rgba(0, 0, 0, 0.6)); */
+                    height: 220px;
+                    border-radius: 12px;
+                    overflow: hidden;
+                    position: relative;
+                    font-family: Arial, Helvetica, sans-serif;
+                    transition: all 300ms;
+                    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
 
-                    .title {
-                        font-size: 26px;
-                        color: black;
-                        text-shadow: rgb(89, 89, 89) 1px 0 3px;
-                        font-weight: bold;
-                        margin: 0;
-                        font-size: 40px;
-                        font-family: monospace;
+                    .content {
+                        text-align: center;
+                        box-sizing: border-box;
+                        width: 100%;
+                        position: absolute;
+                        padding: 30px 20px 10px 20px;
+                        height: auto;
+                        bottom: 0;
+                        /* background: linear-gradient(transparent, rgba(0, 0, 0, 0.6)); */
+
+                        .title {
+                            font-size: 26px;
+                            color: black;
+                            text-shadow: rgb(89, 89, 89) 1px 0 3px;
+                            font-weight: bold;
+                            margin: 0;
+                            font-size: 40px;
+                            font-family: monospace;
+                        }
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
                     }
                 }
-                img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
+
+                .article-card:hover {
+                    box-shadow: 0px 0px 10px 5px rgb(53, 53, 53);
                 }
-            }
-            .article-card:hover{
-                box-shadow: 0px 0px 10px 5px rgb(53, 53, 53);
             }
         }
     }
+
 }
 
 .article-card:hover {
@@ -76,12 +84,13 @@
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 4px;
 }
+
 .titlee {
     color: black !important;
     font-size: 22px !important;
 }
 
-.cerBtn{
+.cerBtn {
     padding: 0.5rem;
     background-color: transparent;
     border-radius: 7px;
@@ -92,7 +101,8 @@
     cursor: pointer;
     text-align: right;
 }
-.cerBtn:hover{
+
+.cerBtn:hover {
     color: white;
     border: 3px solid #4e6aa7;
     background-color: #1b2334;
@@ -152,28 +162,39 @@
     overflow: auto;
 }
 
-.popup .content img{
+.popup .content img {
     height: 40rem;
     width: auto;
     border-radius: 1px;
 }
 
 @media (max-width : 939px) {
-    .main{
+    .main {
         margin: 2rem auto 0;
-        width: 80%;
+        width: 90%;
         text-align: center;
 
-        .hobHeading{
+        .hobHeading {
             font-size: 30px;
+            margin: 1rem 0;
         }
-        .classMain{
-            display: inline;
-            margin: 2rem auto;
 
-            .center{
-                .article-card{
-                    margin-bottom: 4rem;
+        .innerClass{
+            border: 1px solid gray;
+            padding: 1rem;
+            margin: 2rem 0;
+            border-radius: 20px;
+            background-color: #292929;
+            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+
+            .classMain {
+                display: inline;
+                margin: 2rem auto;
+    
+                .center {
+                    .article-card {
+                        margin-bottom: 2rem;
+                    }
                 }
             }
         }
@@ -181,7 +202,7 @@
 }
 
 @media (max-width : 939px) {
-    .marginTop{
+    .marginTop {
         margin-top: 6rem;
     }
 }
