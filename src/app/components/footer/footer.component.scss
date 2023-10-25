@@ -68,9 +68,16 @@
 
 }
 
+@media (min-width : 939px) {
+    .menuIcon{
+        display: none;
+        visibility: hidden;
+    }
+}
 @media (max-width : 939px) {
     .mainFooter {
         visibility: hidden;
         display: none;
     }
+   
 }

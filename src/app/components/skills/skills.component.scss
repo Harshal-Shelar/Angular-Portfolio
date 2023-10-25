@@ -33,6 +33,7 @@ $porcent-corejava: 65;
     justify-content: center;
     align-items: center;
     margin-top: 0rem;
+    margin-bottom: 8rem;
     background-color: transparent;
 }
 
@@ -283,6 +284,6 @@ $porcent-corejava: 65;
 }
 @media (max-width : 939px) {
     .marginTop{
-        margin-top: 6rem;
+        margin: 2rem 0;
     }
 }

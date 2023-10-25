@@ -1,10 +1,11 @@
-<div class="header" [ngClass]="isBottom ? 'bottom' : 'top'">
+<!-- <div class="header" [ngClass]="isBottom ? 'bottom' : 'top'">
     <i class="fa fa-bars" *ngIf="!openSidenav" (click)="openSidenav = true"></i>
     <i class="fa fa-close" *ngIf="openSidenav" (click)="openSidenav = false"></i>
     <h2>My Portfolio</h2>
     <img src="assets/casual.png" alt="">
-</div>
-<div class="sidenav">
+</div> -->
+
+<div class="sidenav" [ngClass]="openSidenav ? 'overlay' : ''">
     <div *ngIf="openSidenav">
         <ul>
             <li routerLink="/profile" (click)="openSidenav = false"> <i class="fa fa-user-circle"></i> Profile</li>
@@ -18,4 +19,8 @@
             <li routerLink="/resume" (click)="openSidenav = false"> <i class="fa fa-vcard-o"></i> Resume</li>
         </ul>
     </div>
+</div>
+<div class="menuIcon">
+    <button (click)="openSidenav = true" *ngIf="!openSidenav"> <i class="fa fa-bars"></i> </button>
+    <button (click)="openSidenav = false" *ngIf="openSidenav"> <i class="fa fa-close"></i> </button>
 </div>
