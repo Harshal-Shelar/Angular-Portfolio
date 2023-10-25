@@ -208,6 +208,7 @@
       text-align: center;
       display: flow-root;
       width: 100%;
+      margin-bottom: 4rem;
 
       .mailMain{
         text-align: center;
@@ -239,6 +240,6 @@
 @media (max-width : 939px) {
   .marginTop{
       margin-top: 1rem;
-      margin-bottom: 8rem;
+      margin-bottom: 1rem;
   }
 }
