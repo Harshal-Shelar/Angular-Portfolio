@@ -7,6 +7,7 @@ import { WorkComponent } from './components/work/work.component';
 import { ResumeComponent } from './components/resume/resume.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { OtherSkillsComponent } from './components/other-skills/other-skills.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
 
 const routes: Routes = [
   {path : "", redirectTo : 'profile', pathMatch : 'full'},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path : "projects", component : ProjectsComponent},
   {path : "resume", component : ResumeComponent},
   {path : "otherSkills", component : OtherSkillsComponent},
+  {path : "contactMe", component : ContactMeComponent},
 ];
 
 @NgModule({

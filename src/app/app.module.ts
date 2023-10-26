@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
 import { PdfService } from './pdf.service';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ResumeComponent,
     OtherSkillsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
