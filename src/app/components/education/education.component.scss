@@ -10,9 +10,8 @@
     }
     .innerClass {
         display: flex;
-        margin: 0 auto;
+        margin: 2rem auto 0;
         gap: 2rem;
-        margin-top: 2rem;
         width: 85%;
         justify-content: center;
 
@@ -31,7 +30,7 @@
             }
 
             .container {
-                padding: 2px 16px;
+                padding: 10px 0px 0px;
 
                 h4{
                     color: #7c93c6;

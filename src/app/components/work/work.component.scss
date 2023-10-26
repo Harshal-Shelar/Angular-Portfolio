@@ -52,6 +52,7 @@
                     font-size: 20px;
                     margin: 5px 0 0;
                     color: white;
+                    line-height: 25px;
                 }
 
                 .dateAndExp {
@@ -133,7 +134,10 @@
         }
     }
 }
-
+hr{
+    margin: 0.5rem 0;
+    color: white;
+}
 @media (max-width : 939px) {
     .marginTop{
         margin-top: 1rem;
