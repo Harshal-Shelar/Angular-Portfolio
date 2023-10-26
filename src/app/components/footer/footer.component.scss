@@ -50,7 +50,6 @@
                 font-size: 50px;
                 transition: 0.3s;
                 text-shadow: rgb(211, 211, 211) 0px 0px 2px;
-                // margin-right: -1.5rem;
                 color: rgb(255, 208, 0);
                 z-index: 999;
 
@@ -59,13 +58,8 @@
                     text-shadow: none;
                 }
             }
-
-            i:after {
-                transition: 0.3s;
-            }
         }
     }
-
 }
 
 @media (min-width : 939px) {

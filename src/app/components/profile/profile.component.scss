@@ -8,6 +8,11 @@
     align-items: center;
     margin: 2rem auto;
     justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
 
     .nameAndSummary {
       .myNameIs {
@@ -57,6 +62,7 @@
     color: #7c93c6;
     line-height: 35px;
     font-size: 30px;
+    text-align: center;
   }
 
   .mainButton {
@@ -102,7 +108,7 @@
       gap: 1rem;
       align-items: center;
       justify-content: center;
-      width: 33%;
+      width: 100%;
 
       i {
         color: rgb(255, 208, 0);
@@ -113,13 +119,14 @@
         color: #7c93c6;
         font-size: 20px;
         font-family: math;
+        margin-top: 1rem;
       }
     }
 
     .phoneMain {
       display: inline;
       align-items: center;
-      width: 33%;
+      width: 100%;
 
       i {
         color: rgb(255, 208, 0);
@@ -130,6 +137,7 @@
         color: #7c93c6;
         font-size: 20px;
         font-family: math;
+        margin-top: 1rem;
       }
     }
 
@@ -137,7 +145,7 @@
       display: inline;
       gap: 1rem;
       align-items: center;
-      width: 33%;
+      width: 100%;
 
       i {
         color: rgb(255, 208, 0);
@@ -148,6 +156,7 @@
         color: #7c93c6;
         font-size: 20px;
         font-family: math;
+        margin-top: 1rem;
       }
     }
 
@@ -187,6 +196,8 @@
     .nameImage{
       display: inline;
       text-align: center;
+      background-color: transparent;
+      box-shadow: none;
 
       .nameAndSummary{
         padding: 0 1rem;

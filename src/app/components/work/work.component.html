@@ -1,26 +1,26 @@
 <div class="mainClass marginTop">
     <h2 class="heading">Work Experience</h2>
     <div class="innerClass">
-        <div class="cardClass" *ngFor="let data of companyCardData">
+        <div class="cardClass col-md-6" *ngFor="let data of companyCardData">
             <div class="images">
-                <img src={{data.img}} alt="">
-            </div>
-            <div class="mainInfo">
-                <h2 class="title">
-                    {{data.name}}
-                </h2>
-                <h3 class="disg">
-                    {{data.position}}
-                </h3>
-                <hr>
-                <p class="details">
-                    {{data.details}}
-                </p>
-                <div class="dateAndExp">
+                <div class="divImg">
+                    <img src={{data.img}} alt="">
+                </div>
+                <div class="headingDetails">
+                    <h2 class="title">
+                        {{data.name}}
+                    </h2>
+                    <h3 class="disg">
+                        {{data.position}}
+                    </h3>
                     <h3 class="date">
                         {{data.date}}
                     </h3>
                 </div>
+            </div>
+            <hr>
+            <div class="mainInfo">
+                <p class="details">{{data.details}}</p>
             </div>
         </div>
     </div>
