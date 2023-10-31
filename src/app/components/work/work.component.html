@@ -1,27 +1,87 @@
 <div class="mainClass marginTop">
-    <h2 class="heading">Work Experience</h2>
-    <div class="innerClass">
-        <div class="cardClass col-md-6" *ngFor="let data of companyCardData">
-            <div class="images">
-                <div class="divImg">
-                    <img src={{data.img}} alt="">
+    <h1 class="heading">Work Experience</h1>
+    <div class="main">
+        <ul class="cards">
+            <li class="cards_item">
+                <div class="card">
+                    <div class="compTitle">
+                        <div class="card_image"><img src="assets/aquarious.jpg"></div>
+                        <div class="compDetails">
+                            <h3>Aquarious Technology Pvt. Ltd.</h3>
+                            <h4>MEAN Stack Developer</h4>
+                            <p class="date">1 May 2023 to 31 August 2023</p>
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <div class="card_text">
+                            <p> <b>1)</b> CZ Masters is an Angular-based responsive web application, where the
+                                admin has access all over the project, he can accept the request of a user
+                                who has requested the new property.
+                                 <br>
+                                <b>2)</b>Admin can manage the properties, and issues regarding the owned
+                                properties. The user can check the properties listed by the admin and also
+                                can buy a new property and register the complaints if he has one. <br>
+                                <b>3)</b> The Admin can manage the notifications and the social media handles. And
+                                can communicate with staff and vendors for inquiries and issues with the
+                                property<br>
+                                <b>Front End :- </b> Angular 14 &nbsp;&nbsp; <b>Backend :- </b> Node JS, Express JS &nbsp;&nbsp; <b>Database :- </b> MongoDB
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="headingDetails">
-                    <h2 class="title">
-                        {{data.name}}
-                    </h2>
-                    <h3 class="disg">
-                        {{data.position}}
-                    </h3>
-                    <h3 class="date">
-                        {{data.date}}
-                    </h3>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="compTitle">
+                        <div class="card_image"><img src="assets/fintech.jpg"></div>
+                        <div class="compDetails">
+                            <h3>Fintech Global Center</h3>
+                            <h4>Angular Developer</h4>
+                            <p class="date">28 November 2022 to 10 March 2023</p>
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <div class="card_text">
+                            <p> <b>1)</b>NoCode app is an Angular-based responsive web app that is basically created
+                                to reduce the workload of creating applications through coding. <br>
+                                <b>2)</b>Also, in this project, you can create your own style application according to your
+                                needs and if you want to buy domains then you have to pay for that. Also, you
+                                can create n number of applications. <br>
+                                <b>3)</b>There are some components like Post, Newsletter, Email, SMS, and Admin
+                                going through all these components you can create your application.
+                                <br>
+                                <b>Front End :- </b> Angular 13 &nbsp;&nbsp; <b>Backend :- </b> Node JS, Nest JS &nbsp;&nbsp; <b>Database :- </b> MongoDB
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <hr>
-            <div class="mainInfo">
-                <p class="details">{{data.details}}</p>
-            </div>
-        </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="compTitle">
+                        <div class="card_image"><img src="assets/intellect.png"></div>
+                        <div class="compDetails">
+                            <h3>Intellect Design Arena</h3>
+                            <h4>Software Engineer</h4>
+                            <p class="date">26 July 2021 to 14 Sept 2022</p>
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <div class="card_text">
+                            <p> <b>1)</b> Worked as a front-end developer in an iGTB project, for Transaction Limit
+                                Management product for Barkleys and Lloyds Banking Group <br>
+                                <b>2)</b>The Product is used to give the decision of Pay or No Pay whether the
+                                transaction can be done or not depending on the Limits and Balances in the
+                                Account. <br>
+                                <b>3)</b> My Role:- Created a structure that shows the hierarchy of Customer Group,
+                                Customer, Account Group, and Account, which represents the tree structure of
+                                limits and balances of children and parents.<br>
+                                <b>Front End :- </b> Angular 8 &nbsp;&nbsp; <b>Backend :- </b> Spring Boot &nbsp;&nbsp; <b>Database :- </b> Postgress
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>

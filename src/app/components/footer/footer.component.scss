@@ -2,14 +2,10 @@
     width: fit-content;
     padding: 1rem;
     border-radius: 15px;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    float: left;
-    z-index: 999;
-    top: 50%;
-    bottom: 50%;
-
+    text-align: center;
+    margin: 0 auto;
+    position: sticky;
+    
     ul {
         box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
         padding-left: 0;
@@ -17,11 +13,15 @@
         border-radius: 15px;
         text-align: center;
         z-index: 999;
+        display: flex;
+        gap:2rem;
+        height: 5rem;
         background-color: #292929;
+        align-items: center;
 
         li {
             list-style: none;
-            margin: 2rem 0;
+            // margin: 2rem 0;
 
             i {
                 font-size: 30px;
@@ -38,8 +38,8 @@
                     padding: 5px;
                     position: absolute;
                     z-index: 1;
-                    margin-left: 1rem;
-                    margin-top: 0.5rem;
+                    margin-left: -4rem;
+                    margin-top: 4rem;
                     font-size: 20px;
                     font-family: monospace;
                     box-shadow: 0px 0px 10px 4px gray;

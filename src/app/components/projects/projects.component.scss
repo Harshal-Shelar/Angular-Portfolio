@@ -7,7 +7,6 @@
   font-family: math;
   color: #7c93c6;
   text-shadow: rgb(153, 153, 153) 1px 0 3px;
-  margin: 3rem 0;
 }
 .cards {
   display: flex;
@@ -55,7 +54,6 @@
   padding-bottom: 2rem;
 
   .projectCode{
-    text-align: right;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +62,7 @@
     .projectCodeBtn{
         background-color: transparent;
         border: 3px solid white;
-        padding: 1rem;
+        padding: 0.5rem;
         font-size: 16px;
         cursor: pointer;
         border-radius: 10px;

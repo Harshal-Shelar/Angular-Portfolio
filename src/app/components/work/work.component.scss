@@ -1,160 +1,185 @@
 .mainClass {
+    margin: 0 auto;
 
     .heading {
-        font-size: 40px;
         text-align: center;
-        color: #7c93c6;
+        font-size: 40px;
         font-family: math;
-        margin: 3rem 0;
+        color: #7c93c6;
         text-shadow: rgb(153, 153, 153) 1px 0 3px;
     }
 
-    .innerClass {
-        display: inline;
+    .main{
+        margin: 0 auto;
 
-        .cardClass {
-            align-items: center;
-            width: 50%;
-            margin: 4rem auto;
-            border-radius: 15px;
-            background-color: #292929;
-            padding: 1rem;
-            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            margin: 0;
+            padding: 0;
 
-            .images {
+            .cards_item {
                 display: flex;
-                gap: 2rem;
-                text-align: left;
+                padding: 1rem;
+                max-width: 800px;
+                margin: 0 auto 3rem;
 
-                .divImg{
+                .card {
+                    background-color: #292929;
+                    border-radius: 20px;
+                    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
                     display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+                    padding-bottom: 2rem;
 
-                    img {
-                        height: 8rem;
-                        width: auto;
+                    .compTitle{
+                        display: flex;
+                        gap: 2rem;
+                        padding: 1rem;
+                        border-bottom: 1px solid gray;
+                        align-items: center;
+
+                        .card_image {
+                            img {
+                                width: auto;
+                                height: 10rem;
+                            }
+                        }
+                        .compDetails{
+                            display: inline;
+                            h3{
+                                font-size: 30px;
+                                letter-spacing: 1px;
+                                font-family: math;
+                                color: white;
+                            }
+                            h4{
+                                font-size: 25px;
+                                letter-spacing: 1px;
+                                font-family: math;
+                                color: rgb(255, 208, 0);
+                            }
+                            .date{
+                                font-size: 20px;
+                                letter-spacing: 1px;
+                                font-family: monospace;
+                                color: white;
+                            }
+                        }
                     }
-                }
-                .headingDetails{
+                    .card_content {
+                        padding: 1rem 1rem 1rem;
+                        z-index: 1;
+                        display: block;
 
-                    .title {
-                        font-size: 35px;
-                        margin: 3px 0 0;
-                        font-family: math;
-                        color: white;
+                        .card_title {
+                            font-family: 'Lobster', cursive;
+                            font-size: 30px;
+                            line-height: 45px;
+                            margin-top: -15px;
+                            margin-bottom: 24px;
+                            text-shadow: black 1px 0 2px;
+                            color: rgb(255, 208, 0);
+                        }
+                        .card_text {
+                            color: white;
+                            font-family: 'Raleway', sans-serif;
+                        
+                            p {
+                                line-height: 35px;
+                                max-width: 700px;
+                                font-family: math;
+                                font-size: 20px;
+                                letter-spacing: 1px;
+                            }
+                            b{
+                                color:#7c93c6;
+                            }
+                        }
+                        .card_price {
+                            position: relative;
+                            top: 10px;
+                            left: 10px;
+                            text-align: left;
+                            color: #7c93c6;
+                            font-family: monospace;
+                            height: 24px;
+                            font-size: 22px;
+                            font-weight: bold;
+                            text-shadow: black 3px 0px 6px;
+                        }
                     }
-    
-                    .disg {
-                        font-size: 25px;
-                        margin: 3px 0 0;
-                        color: rgb(255, 208, 0);
-                        font-family: monospace;
-                    }
-
-                    .date {
-                        font-size: 25px;
-                        font-family: math;
-                        margin: 15px 0 0;
-                        color: #7c93c6
-                    }
-                }
-            }
-
-            .mainInfo {
-                display: inline;
-
-                .details {
-                    font-family: monospace;
-                    font-size: 20px;
-                    margin: 5px 0 0;
-                    color: white;
-                    line-height: 25px;
                 }
             }
         }
-
-    }
-
-    .innerClass:hover {
-        transition: 0.5s;
     }
 }
 
+#item_fig .card:after {
+    font-family: "Raleway", sans-serif;
+    color: rgba(234, 225, 175, 0.8);
+    font-weight: 600;
+    // font-style: italic;
+    text-transform: uppercase;
+    display: block;
+    width: 10ch;
+    height: 1.5em;
+    padding: 0.2em 0.4em;
+    position: relative;
+    bottom: calc(100% - 2.5em);
+    left: 1em;
+}
 
 @media (max-width : 939px) {
     .mainClass {
-        width: 80%;
-        margin: 0 auto;
+        margin: 2rem auto 0;
+        width: 90%;
+    }
 
-        .heading{
-            font-size: 30px;
-        }
-        .innerClass {
+    .heading {
+        font-size: 30px;
+    }
+
+    .card_title {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .card_price {
+        font-size: 20px;
+    }
+
+    .card {
+        .projectCode {
             display: inline;
-            
-            .cardClass {
-                background-color: transparent;
-                margin-bottom: 7rem;
-                padding: 1rem;
-                border-radius: none;
-                border: none;
-                display: inline;
-                box-shadow: none;
 
-                .mainInfo{
-                    .title{
-                        font-size: 30px;
-                    }
-                }
-
-                .images {
-                    display: inline;
-                    text-align: center;
-    
-                    .divImg{
-                        display: block;
-                        margin: 0 0 1rem;
-                        img {
-                            height: 8rem;
-                            width: auto;
-                            text-align: center;
-                        }
-                    }
-                    .headingDetails{
-                        
-                        .title {
-                            font-size: 35px;
-                            margin: 3px 0 0;
-                            font-family: math;
-                            color: white;
-                        }
-        
-                        .disg {
-                            font-size: 25px;
-                            margin: 3px 0 0;
-                            color: rgb(255, 208, 0);
-                            font-family: monospace;
-                        }
-    
-                        .date {
-                            font-size: 25px;
-                            font-family: math;
-                            margin: 15px 0 0;
-                            color: #7c93c6
-                        }
-                    }
-                }
+            .projectCodeBtn {
+                margin-top: 2rem;
+                padding: 1rem 0.5rem;
+                font-size: 18px;
+                width: 100%;
             }
-
         }
     }
 }
-hr{
-    margin: 0.5rem 0;
-    color: white;
-}
+
 @media (max-width : 939px) {
-    .marginTop{
+    .marginTop {
         margin-top: 1rem;
         margin-bottom: 8rem;
+    }
+
+    .cards_item {
+        padding: 0;
+    }
+
+    .card_content {
+        padding: 1rem 1rem 0.5rem;
+    }
+
+    .card_text p {
+        margin: 0;
     }
 }
