@@ -186,7 +186,7 @@
 @media (max-width : 939px) {
   .marginTop{
       margin-top: 1rem;
-      margin-bottom: 8rem;
+      margin-bottom: 5rem;
   }
   .cards_item{
     padding: 0;
@@ -196,5 +196,9 @@
   }
   .card_text p{
     margin: 0;
+  }
+  .card{
+    width: 90%;
+    margin: 0 auto;
   }
 }
