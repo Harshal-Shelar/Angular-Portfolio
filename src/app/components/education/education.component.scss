@@ -74,11 +74,76 @@
             }
         }
     }
-}
-
-@media (max-width : 939px) {
     .marginTop{
         margin-top: 1rem;
         margin-bottom: 8rem;
+    }
+    .newMainClass{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (min-width : 939px) {
+    .mainClass{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.newMainClass{
+    margin: 2rem auto;
+    width: 800px;
+
+    .newDegree{
+        display: flex;
+        align-items: center;
+        margin: 2rem 0;
+
+        .newDegreeImage{
+            img{
+                height: 15rem;
+                width: auto;
+                border-radius: 15px;
+                box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+            }
+        }
+        .newDegreeInfo{
+            margin-left: -5rem;
+            background-color: #181818;
+            display: inline;
+            // line-height: 12px;
+            padding: 1rem;
+            height: fit-content;
+            align-items: center;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+
+            .college{
+                color: white;
+                font-family: math;
+                letter-spacing: 1px;
+                font-size: 20px;
+                margin: 5px 0;
+            }
+            .degree{
+                color: rgb(255, 208, 0);
+                font-family: math;
+                letter-spacing: 1px;
+                font-size: 18px;
+                margin: 5px 0;
+
+                span{
+                    color: #aac5ff;
+                }
+            }
+            .date{
+                color: white;
+                font-family: monospace;
+                letter-spacing: 1px;
+                margin-bottom: 0;
+                font-size: 15px;
+            }
+        }
     }
 }
