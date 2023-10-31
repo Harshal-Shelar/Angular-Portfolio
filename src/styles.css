@@ -15,12 +15,20 @@
     text-align: center;
 }
 
+.mainBody {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat no-repeat, no-repeat no-repeat;
+    background-size: cover;
+    background-image: url("https://cdn.wallpapersafari.com/70/26/yUqK4N.png");
+}
+
 .btnNext {
     padding: 1rem;
-    border: 3px solid #7c93c6;
-    background-color: #292929;
+    border: 3px solid #aac5ff;
+    background-color: #181818;
     border-radius: 10px;
-    color: #7c93c6;
+    color: #aac5ff;
     font-size: 20px;
     cursor: pointer;
     font-weight: bold;
@@ -30,7 +38,7 @@
 
 .btnNext:hover {
     border: 3px solid #0d1320;
-    background-color: #7c93c6;
+    background-color: #aac5ff;
     color: #0d1320;
     box-shadow: 1px 1px 10px 1px white;
     transition: 0.3s;

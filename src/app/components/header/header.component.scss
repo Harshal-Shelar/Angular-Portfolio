@@ -5,7 +5,7 @@
     position: fixed;
     z-index: 999;
     width: 100%;
-    background-color: #292929;
+    background-color: #181818;
     margin: 0;
     top: 0;
     left: 0;
@@ -23,7 +23,7 @@
     h2 {
         font-family: monospace;
         font-size: 25px;
-        color: #7c93c6;
+        color: #aac5ff;
     }
 
     img {
@@ -36,7 +36,7 @@
 }
 
 .top {
-    background-color: #292929;
+    background-color: #181818;
 }
 
 .bottom {
@@ -57,7 +57,7 @@
         right: 10%;
         position: absolute;
         width: fit-content;
-        background-color: #292929;
+        background-color: #181818;
         text-align: left;
         padding: 0 40px 0 20px;
         box-shadow: 0px 0px 10px 10px rgba(83, 83, 83, 0.3);
@@ -110,11 +110,11 @@
             background-color: black;
             border-radius: 50%;
             border: 1px solid #000000;
-            box-shadow: 0px 0px 10px 5px #7c93c6;
+            box-shadow: 0px 0px 10px 5px #aac5ff;
 
             i{
                 font-size: 30px;
-                color: #7c93c6;
+                color: #aac5ff;
             }
         }
     }

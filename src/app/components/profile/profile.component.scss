@@ -8,7 +8,7 @@
     align-items: center;
     margin: 2rem auto;
     justify-content: center;
-    background-color: #292929;
+    background-color: #181818;
     border-radius: 20px;
     width: fit-content;
     padding: 2rem;
@@ -25,7 +25,7 @@
       .name {
         margin: 1rem 0 0.1rem;
         font-family: math;
-        color: #7c93c6;
+        color: #aac5ff;
         font-size: 60px;
       }
 
@@ -59,7 +59,7 @@
     padding: 0 3rem;
     font-family: monospace;
     margin: 3rem auto;
-    color: #7c93c6;
+    color: #aac5ff;
     line-height: 35px;
     font-size: 30px;
     text-align: center;
@@ -74,8 +74,8 @@
     margin-top: 3rem;
 
     .checkOutBtn {
-      background-color: #292929;
-      border: 3px solid #7c93c6;
+      background-color: #181818;
+      border: 3px solid #aac5ff;
       border-radius: 10px;
       padding: 1rem;
       font-size: 20px;
@@ -83,14 +83,14 @@
       display: flex;
       align-items: center;
       gap: 0.5rem;
-      color: #7c93c6;
+      color: #aac5ff;
       font-weight: bold;
       cursor: pointer;
       box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
     }
 
     .checkOutBtn:hover {
-      background-color: #7c93c6;
+      background-color: #aac5ff;
       border: 3px solid #0d1320;
       color: #0d1320;
     }
@@ -117,7 +117,7 @@
       }
 
       h2 {
-        color: #7c93c6;
+        color: #aac5ff;
         font-size: 20px;
         font-family: math;
         margin-top: 1rem;
@@ -135,7 +135,7 @@
       }
 
       h2 {
-        color: #7c93c6;
+        color: #aac5ff;
         font-size: 20px;
         font-family: math;
         margin-top: 1rem;
@@ -154,7 +154,7 @@
       }
 
       h2 {
-        color: #7c93c6;
+        color: #aac5ff;
         font-size: 20px;
         font-family: math;
         margin-top: 1rem;
@@ -164,9 +164,9 @@
     .checkPrBtn {
       padding: 0.8rem 1rem;
       border-radius: 10px;
-      border: 3px solid #7c93c6;
+      border: 3px solid #aac5ff;
       background-color: transparent;
-      color: #7c93c6;
+      color: #aac5ff;
       font-size: 18px;
       cursor: pointer;
       font-weight: bold;
@@ -174,7 +174,7 @@
     }
 
     .checkPrBtn:hover {
-      background-color: #7c93c6;
+      background-color: #aac5ff;
       border: 3px solid #0d1320;
       color: #0d1320;
     }
