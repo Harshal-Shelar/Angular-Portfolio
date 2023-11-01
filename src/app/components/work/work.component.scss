@@ -4,7 +4,7 @@
     .heading {
         text-align: center;
         font-size: 40px;
-        font-family: math;
+        font-family: 'pridimedium';
         color: #aac5ff;
         text-shadow: rgb(153, 153, 153) 1px 0 3px;
     }
@@ -26,7 +26,7 @@
                 margin: 0 auto 3rem;
 
                 .card {
-                    background-color: #181818;
+                    background-color: transparent;
                     border-radius: 20px;
                     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
                     display: flex;
@@ -52,19 +52,19 @@
                             h3{
                                 font-size: 30px;
                                 letter-spacing: 1px;
-                                font-family: math;
+                                font-family: 'Rubik', sans-serif;;
                                 color: white;
                             }
                             h4{
                                 font-size: 25px;
                                 letter-spacing: 1px;
-                                font-family: math;
+                                font-family: 'Rubik', sans-serif;;
                                 color: rgb(255, 208, 0);
                             }
                             .date{
                                 font-size: 20px;
                                 letter-spacing: 1px;
-                                font-family: monospace;
+                                font-family: 'pridimedium';
                                 color: white;
                             }
                         }
@@ -90,7 +90,7 @@
                             p {
                                 line-height: 35px;
                                 max-width: 700px;
-                                font-family: math;
+                                font-family: 'Rubik', sans-serif;;
                                 font-size: 20px;
                                 letter-spacing: 1px;
                             }
@@ -104,7 +104,7 @@
                             left: 10px;
                             text-align: left;
                             color: #aac5ff;
-                            font-family: monospace;
+                            font-family: 'pridimedium';
                             height: 24px;
                             font-size: 22px;
                             font-weight: bold;

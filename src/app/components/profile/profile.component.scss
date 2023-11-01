@@ -8,7 +8,6 @@
     align-items: center;
     margin: 2rem auto;
     justify-content: center;
-    background-color: #181818;
     border-radius: 20px;
     width: fit-content;
     padding: 2rem;
@@ -17,20 +16,20 @@
     .nameAndSummary {
       .myNameIs {
         margin: 1rem 0;
-        font-family: monospace;
+        font-family: 'pridimedium';
         font-size: 30px;
         color: white;
       }
 
       .name {
         margin: 1rem 0 0.1rem;
-        font-family: math;
+        font-family: 'Rubik', sans-serif;;
         color: #aac5ff;
         font-size: 60px;
       }
 
       .disg {
-        font-family: monospace;
+        font-family: 'pridimedium';
         font-size: 30px;
         color: white;
 
@@ -57,7 +56,8 @@
 
   .summary {
     padding: 0 3rem;
-    font-family: monospace;
+    font-family: 'pridimedium';
+    font-weight: 100;
     margin: 3rem auto;
     color: #aac5ff;
     line-height: 35px;
@@ -79,12 +79,12 @@
       border-radius: 10px;
       padding: 1rem;
       font-size: 20px;
-      font-family: monospace;
+      font-family: 'pridimedium';
+      font-weight: 100;
       display: flex;
       align-items: center;
       gap: 0.5rem;
       color: #aac5ff;
-      font-weight: bold;
       cursor: pointer;
       box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
     }
@@ -102,7 +102,7 @@
     justify-content: center;
     margin: 4rem auto 0;
     gap: 2rem;
-    width: 50%;
+    width: 800px;
 
     .mailMain {
       display: inline;
@@ -119,7 +119,7 @@
       h2 {
         color: #aac5ff;
         font-size: 20px;
-        font-family: math;
+        font-family: 'Rubik', sans-serif;;
         margin-top: 1rem;
       }
     }
@@ -137,7 +137,7 @@
       h2 {
         color: #aac5ff;
         font-size: 20px;
-        font-family: math;
+        font-family: 'Rubik', sans-serif;;
         margin-top: 1rem;
       }
     }
@@ -156,7 +156,8 @@
       h2 {
         color: #aac5ff;
         font-size: 20px;
-        font-family: math;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
         margin-top: 1rem;
       }
     }

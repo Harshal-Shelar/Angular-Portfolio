@@ -61,11 +61,11 @@ $porcent-corejava: 65;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
     margin: 2rem;
     cursor: pointer;
-    background-color: rgb(37, 36, 36);
+    background-color: transparent;
 
     h2{
         color: #aac5ff;
-        font-family: math;
+        font-family: 'Rubik', sans-serif;;
         font-size: 25px;
         letter-spacing: 1px;
     }
@@ -79,7 +79,7 @@ $porcent-corejava: 65;
     font-size: 40px;
     text-align: center;
     color: #aac5ff;
-    font-family: math;
+    font-family: 'pridimedium';
     text-shadow: rgb(153, 153, 153) 1px 0 3px;
 }
 .progressbar__svg {

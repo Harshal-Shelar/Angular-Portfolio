@@ -1,5 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;400&display=swap");
+
+@font-face {
+  font-family: "pridibold";
+  src: url("./assets/fonts/pridi-bold-webfont.woff2") format("woff2"),
+    url("./assets/fonts/pridi-bold-webfont.woff") format("woff"),
+    url("./assets/fonts/pridi-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pridimedium";
+  src: url("./assets/fonts/pridi-medium-webfont.woff2") format("woff2"),
+    url("./assets/fonts/pridi-medium-webfont.woff") format("woff"),
+    url("./assets/fonts/pridi-medium-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pridimedium";
+  src: url("./assets/fonts/pridi-medium-webfont.woff2") format("woff2"),
+    url("./assets/fonts/pridi-medium-webfont.woff") format("woff"),
+    url("./assets/fonts/pridi-medium-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 .shadowBtn:hover {
     box-shadow: 1px 1px 10px 1px white;
@@ -21,7 +49,7 @@
     background-repeat: no-repeat no-repeat, no-repeat no-repeat;
     background-size: cover;
     /* background-image: url("https://cdn.wallpapersafari.com/70/26/yUqK4N.png"); */
-    background-color: rgb(48, 48, 48);
+    background-image: linear-gradient(to right, #04131f, #11334f);
 }
 
 .btnNext {
@@ -34,7 +62,7 @@
     cursor: pointer;
     font-weight: bold;
     margin-top: 2rem;
-    font-family: monospace;
+    font-family: 'pridimedium';
 }
 
 .btnNext:hover {
