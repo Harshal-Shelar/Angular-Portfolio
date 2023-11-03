@@ -1,64 +1,54 @@
 .mainFooter {
-    width: fit-content;
     padding: 1rem;
     border-radius: 15px;
     text-align: center;
-    margin: 0 auto;
     position: sticky;
     
     ul {
-        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-        padding-left: 0;
-        padding: 1rem;
+        padding: 1rem 2rem;
+        margin: 0 auto;
+        width: 1000px;
         border-radius: 15px;
-        text-align: center;
         z-index: 999;
         display: flex;
-        gap:2rem;
+        justify-content: space-between;
         height: 5rem;
-        background-color: #181818;
         align-items: center;
+        // border-bottom: 1px solid white;
 
-        li {
-            list-style: none;
-
-            i {
-                font-size: 30px;
-                color: white;
+        .logo{
+            img{
+                height: 3rem;
+                width: auto;
                 cursor: pointer;
-
-                .tooltiptext {
-                    visibility: hidden;
-                    width: fit-content;
-                    background-color: #1b1b1b;
-                    color: #fff;
-                    text-align: center;
-                    border-radius: 6px;
-                    padding: 5px;
-                    position: absolute;
-                    z-index: 1;
-                    margin-left: -4rem;
-                    margin-top: 4rem;
-                    font-size: 20px;
-                    font-family: 'Rubik', sans-serif;
-                    box-shadow: 0px 0px 10px 4px gray;
-                }
+                border-radius: 15px;
             }
-            
+            img:hover{
+                box-shadow: 0px 0px 10px 3px gray
+            }
+        }
 
-            i:hover {
-                font-size: 50px;
-                transition: 0.3s;
-                text-shadow: rgb(211, 211, 211) 0px 0px 2px;
-                color: rgb(255, 208, 0);
-                z-index: 999;
+        .lists{
+            display: flex;
+            gap: 1rem;
 
-                .tooltiptext {
-                    visibility: visible;
-                    text-shadow: none;
+            li {
+                list-style: none;
+    
+                span {
+                    font-size: 20px;
+                    color: white;
+                    cursor: pointer;
+                    font-family: 'Rubik', sans-serif;
+                }
+                span:hover{
+                    text-shadow: rgb(236, 236, 236) 1px 0 30px;
+                    transition: 0.3s;
                 }
             }
         }
+
+       
     }
 }
 

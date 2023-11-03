@@ -1,11 +1,21 @@
 .main {
     margin: 0 auto;
     width: fit-content;
+
+    .mainHeading{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'pridimedium';
+        color: #aac5ff;
+        text-shadow: rgb(153, 153, 153) 1px 0 3px;
+        margin: 0rem 0 1rem;
+        letter-spacing: 2px;
+    }
     
     .hobHeading {
         text-align: center;
         font-size: 40px;
-        font-family: 'pridimedium';
+        font-family: 'Rubik', sans-serif;
         color: #aac5ff;
         text-shadow: rgb(153, 153, 153) 1px 0 3px;
         margin: 0rem 0 1rem;

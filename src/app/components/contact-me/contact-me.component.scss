@@ -11,6 +11,9 @@ label, p {
     font-family: 'Rubik', sans-serif;
     letter-spacing: 1px;
 }
+p, i{
+    cursor: pointer;
+}
 i, h2{
     color: #aac5ff;
 }
@@ -23,6 +26,11 @@ h2{
     margin: 0rem 0 5px!important;
     text-shadow: rgb(153, 153, 153) 1px 0 3px;
     letter-spacing: 2px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 .col-md-6, .col-md-12{
     margin: 0.5rem 0;
