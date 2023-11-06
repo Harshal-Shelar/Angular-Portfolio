@@ -13,8 +13,12 @@ export class EducationComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  openAcitivities(){
-    this.router.navigate(['/otherSkills'])
+  goBack(){
+    this.router.navigate(['/skills']);
+  }
+
+  goNext(){
+    this.router.navigate(['/otherSkills']);
   }
 
 }

@@ -26,7 +26,11 @@ export class SkillsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  showEducation(){
+  goBack(){
+    this.router.navigate(['/projects']);
+  }
+
+  goNext(){
     this.router.navigate(['/education']);
   }
 

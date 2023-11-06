@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { PdfService } from 'src/app/pdf.service';
 declare const PDFObject: any;
 @Component({
@@ -11,7 +12,7 @@ export class ResumeComponent implements OnInit {
   pdfData : any;
   pdfObject : any;
   isLoading :any = false;
-  constructor(private pdfService: PdfService) { }
+  constructor(private pdfService: PdfService, private router : Router) { }
 
   ngOnInit(): void {
     this.isLoading = true;
@@ -28,5 +29,12 @@ export class ResumeComponent implements OnInit {
 
   handleRenderPdf(data:any) {
     this.pdfObject = PDFObject.embed(data, '#pdfContainer');
+  }
+  goBack(){
+    this.router.navigate(['/otherSkills']);
+  }
+
+  goNext(){
+    this.router.navigate(['/contactMe']);
   }
 }

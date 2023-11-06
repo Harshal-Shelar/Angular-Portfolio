@@ -22,7 +22,7 @@ export class ProfileComponent implements OnInit {
     window.open("https://www.linkedin.com/in/harshal-shelar-a562b8154/");
   }
 
-  openWork(){
+  goNext(){
     this.router.navigate(['/work'])
   }
 

@@ -26,5 +26,12 @@ export class OtherSkillsComponent implements OnInit {
   sih(){
 
   }
+  goBack(){
+    this.router.navigate(['/education']);
+  }
+
+  goNext(){
+    this.router.navigate(['/resume']);
+  }
 
 }

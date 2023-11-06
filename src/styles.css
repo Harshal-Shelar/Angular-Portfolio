@@ -50,20 +50,42 @@
     background-size: cover;
     background-image: linear-gradient(to right, #04131f, #164773);
 }
-
-.btnNext {
-    padding: 1rem;
-    border: 3px solid #aac5ff;
-    background-color: #181818;
-    border-radius: 10px;
-    color: #aac5ff;
-    font-size: 20px;
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 2rem;
-    font-family: 'pridimedium';
+.prevNextBtn{
+  text-align: center;
 }
-
+.btnPrevNext{
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  background-color: transparent;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  margin: 0 0 2rem 3rem;
+}
+.backArrow{
+  color: rgb(255, 208, 0);
+}
+.btnPrevNext:hover{
+  font-size: 22px;
+  transition: 0.3s;
+  padding: 0.5rem 1rem;
+  box-shadow: 0px 0px 10px 2px #04131f;
+}
+.btnNext {
+  padding: 1rem;
+  border: 3px solid #aac5ff;
+  background-color: #181818;
+  border-radius: 10px;
+  color: #aac5ff;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  font-family: 'pridimedium';
+}
 .btnNext:hover {
     border: 3px solid #0d1320;
     background-color: #aac5ff;

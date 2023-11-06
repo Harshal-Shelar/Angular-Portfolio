@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact-me',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactMeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router : Router) { }
 
   ngOnInit(): void {
   }
@@ -18,6 +19,10 @@ export class ContactMeComponent implements OnInit {
 
   openGmail(){
     window.open("https://mail.google.com/mail/u/0/#inbox");
+  }
+
+  goBack(){
+    this.router.navigate(['/resume']);
   }
 
 }

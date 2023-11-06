@@ -24,4 +24,11 @@ export class ProjectsComponent implements OnInit {
   openSkills(){
     this.router.navigate(['/skills']);
   }
+  goBack(){
+    this.router.navigate(['/work']);
+  }
+
+  goNext(){
+    this.router.navigate(['/skills']);
+  }
 }

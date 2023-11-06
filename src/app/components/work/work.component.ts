@@ -79,4 +79,12 @@ export class WorkComponent implements OnInit {
   showExp3(){
     this.exp3 = true;
   }
+
+  goBack(){
+    this.router.navigate(['/profile']);
+  }
+
+  goNext(){
+    this.router.navigate(['/projects']);
+  }
 }
