@@ -52,6 +52,9 @@
 }
 .prevNextBtn{
   text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 .btnPrevNext{
   border: none;
@@ -62,7 +65,15 @@
   font-size: 18px;
   letter-spacing: 2px;
   border-radius: 10px;
-  margin: 0 0 2rem 3rem;
+  margin: 0 0 2rem 0rem;
+  bottom: 20px;
+}
+@media (max-width : 767px) {
+  .prevNextBtn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
 }
 .backArrow{
   color: rgb(255, 208, 0);
