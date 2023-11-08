@@ -1,7 +1,8 @@
 .main {
   margin: 0 auto;
 }
-.heading{
+
+.heading {
   text-align: center;
   font-size: 40px;
   font-family: 'pridimedium';
@@ -10,6 +11,7 @@
   letter-spacing: 2px;
   margin-bottom: 2rem;
 }
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -28,13 +30,14 @@
 .card_image {
   max-height: 250px;
   margin-top: -24px;
+
   img {
     width: 100%;
     max-width: 800px;
     height: 100%;
     object-fit: cover;
   }
-  
+
   &:after {
     content: "";
     display: block;
@@ -55,26 +58,27 @@
   overflow: hidden;
   padding-bottom: 2rem;
 
-  .projectCode{
+  .projectCode {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
 
-    .projectCodeBtn{
-        background-color: transparent;
-        border: 3px solid white;
-        padding: 0.5rem;
-        font-size: 16px;
-        cursor: pointer;
-        border-radius: 10px;
-        font-weight: bold;
-        color: white;
+    .projectCodeBtn {
+      background-color: transparent;
+      border: 3px solid white;
+      padding: 0.5rem;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 10px;
+      font-weight: bold;
+      color: white;
     }
-    .projectCodeBtn:hover{
-        background-color: #0d1320;
-        border: 3px solid #aac5ff;
-        color: #aac5ff;
+
+    .projectCodeBtn:hover {
+      background-color: #0d1320;
+      border: 3px solid #aac5ff;
+      color: #aac5ff;
     }
   }
 }
@@ -96,13 +100,15 @@
 }
 
 .card_text {
-  color:white;
+  color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
+
   p {
     line-height: 35px;
     max-width: 700px;
-    font-family: 'Rubik', sans-serif;;
+    font-family: 'Rubik', sans-serif;
+    ;
     font-size: 20px;
     letter-spacing: 1px;
   }
@@ -113,7 +119,7 @@
   top: 10px;
   left: 10px;
   text-align: left;
-  color:rgb(255, 208, 0);
+  color: rgb(255, 208, 0);
   font-family: 'pridimedium';
   height: 24px;
   font-size: 22px;
@@ -136,11 +142,11 @@
   left: 1em;
 }
 
-.skill{
+.skill {
   text-align: center;
   margin-top: 2rem;
 
-  .skillBtn{
+  .skillBtn {
     padding: 1rem;
     border: 3px solid #aac5ff;
     background-color: transparent;
@@ -150,7 +156,8 @@
     cursor: pointer;
     font-weight: bold;
   }
-  .skillBtn:hover{
+
+  .skillBtn:hover {
     border: 3px solid #0d1320;
     background-color: #aac5ff;
     color: #0d1320;
@@ -158,25 +165,29 @@
 }
 
 @media (max-width : 767px) {
-  .mainClass{
+  .mainClass {
     margin: 2rem auto 0;
     width: 90%;
   }
-  .heading{
+
+  .heading {
     font-size: 30px;
   }
-  .card_title{
+
+  .card_title {
     font-size: 20px;
     line-height: 35px;
   }
-  .card_price{
+
+  .card_price {
     font-size: 20px;
   }
-  .card{
-    .projectCode{
+
+  .card {
+    .projectCode {
       display: inline;
 
-      .projectCodeBtn{
+      .projectCodeBtn {
         margin-top: 2rem;
         padding: 1rem 0.5rem;
         font-size: 18px;
@@ -185,21 +196,32 @@
     }
   }
 }
+
 @media (max-width : 767px) {
-  .marginTop{
-      margin-top: 1rem;
-      margin-bottom: 2rem;
+  .marginTop {
+    padding-top: 6rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
   }
-  .cards_item{
+
+  .heading{
+    margin-bottom: 0;
+  }
+
+  .cards_item {
     padding: 0;
+    margin: 3rem auto 0rem;
   }
-  .card_content{
+
+  .card_content {
     padding: 1rem 1rem 0.5rem;
   }
-  .card_text p{
+
+  .card_text p {
     margin: 0;
   }
-  .card{
+
+  .card {
     width: 90%;
     margin: 0 auto;
   }

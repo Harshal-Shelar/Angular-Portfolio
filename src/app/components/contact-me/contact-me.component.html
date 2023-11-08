@@ -1,63 +1,65 @@
-<h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
-<div class="mainClass">
-    <section class="mb-4">
-        <div class="row">
-            <div class="col-md-8 mb-md-0 mb-5">
-                <form id="contact-form">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <label for="name">Your name</label>
-                                <input type="text" id="name" name="name" class="form-control">
+<div class="contactMainClass">
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+    <div class="mainClass">
+        <section class="mb-4">
+            <div class="row">
+                <div class="col-md-8 mb-md-0 mb-5">
+                    <form id="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="name">Your name</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="email">Your email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <label for="email">Your email</label>
-                                <input type="text" id="email" name="email" class="form-control">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                </div>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <label for="message">Your message</label>
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-left text-md-left">
+                        <a class="btn btn-primary">Send</a>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
-                                <label for="subject">Subject</label>
-                                <input type="text" id="subject" name="subject" class="form-control">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form">
-                                <label for="message">Your message</label>
-                                <textarea type="text" id="message" name="message" rows="2"
-                                    class="form-control md-textarea"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="text-left text-md-left">
-                    <a class="btn btn-primary">Send</a>
+                    <div class="status"></div>
                 </div>
-                <div class="status"></div>
+                <div class="col-md-4 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li (click)="openMap()"><i class="fa fa-map-marker fa-2x"></i>
+                            <p>3207, Near Phadatare Wada, Ganapati Road, Ashta</p>
+                        </li>
+    
+                        <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                            <p>+91 8600480438</p>
+                        </li>
+    
+                        <li (click)="openGmail()"><i class="fa fa-envelope mt-4 fa-2x"></i>
+                            <p>{{email}}</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-4 text-center">
-                <ul class="list-unstyled mb-0">
-                    <li (click)="openMap()"><i class="fa fa-map-marker fa-2x"></i>
-                        <p>3207, Near Phadatare Wada, Ganapati Road, Ashta</p>
-                    </li>
-
-                    <li><i class="fa fa-phone mt-4 fa-2x"></i>
-                        <p>+91 8600480438</p>
-                    </li>
-
-                    <li (click)="openGmail()"><i class="fa fa-envelope mt-4 fa-2x"></i>
-                        <p>harshalshelar8251@gmail.com</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </div>
 <div class="prevNextBtn">
     <button class="btnPrevNext" (click)="goBack()"> <i class="fa fa-long-arrow-left backArrow"></i> Check Resume Again</button>

@@ -49,6 +49,11 @@
     justify-content: space-between;
     padding: 0.8rem 1rem;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 3px 15px -3px #000;
+    background-image: linear-gradient(to right, #04131f, #164773);
 
     .title {
         font-size: 24px;
@@ -78,10 +83,11 @@
     background-color: #000000;
     padding: 0.1rem 0;
     z-index: 999;
-    filter: blur();
-    position: absolute;
+    margin-top: 4rem;
+    position: fixed;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    box-shadow: 0 3px 35px -3px #04131f;
 
     ul {
         // background-color: #000000;
@@ -89,7 +95,7 @@
 
         li {
             list-style: none;
-            margin: 1.5rem 0;
+            margin: 2rem 0;
             font-size: 20px;
             color: white;
             font-family: 'Rubik', sans-serif;
@@ -116,7 +122,7 @@
     cursor: not-allowed;
 }
 .backgroundBlack{
-    background-color: black;
+    background-image: linear-gradient(to right, #000000, #000000);
 }
 @media (max-width : 767px) {
     .mainHeader {

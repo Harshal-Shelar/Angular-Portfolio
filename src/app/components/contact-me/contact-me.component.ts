@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class ContactMeComponent implements OnInit {
 
+  email : any = "harshalshelar8251@gmail.com"
   constructor(private router : Router) { }
 
   ngOnInit(): void {

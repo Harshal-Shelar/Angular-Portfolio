@@ -140,11 +140,13 @@
 
         .heading{
             font-size: 30px;
+            margin-bottom: 1rem;
         }
         
         .main{
             .cards{
                 .cards_item{
+                    margin: 0 auto;
                     .card{
                         .compTitle{
                             display: inline;
@@ -161,7 +163,8 @@
         }
     }
     .marginTop {
-        margin-top: 1rem;
+        padding-top: 6rem;
+        margin-top: 0rem;
         margin-bottom: 2rem;
     }
 }

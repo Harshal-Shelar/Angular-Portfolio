@@ -23,7 +23,8 @@
 
       .name {
         margin: 1rem 0 0.1rem;
-        font-family: 'Rubik', sans-serif;;
+        font-family: 'Rubik', sans-serif;
+        ;
         color: #aac5ff;
         font-size: 60px;
       }
@@ -37,7 +38,7 @@
           color: rgb(255, 208, 0);
         }
 
-        span{
+        span {
           color: rgb(255, 208, 0);
           font-size: 60px;
           font-style: italic;
@@ -119,7 +120,8 @@
       h2 {
         color: #aac5ff;
         font-size: 20px;
-        font-family: 'Rubik', sans-serif;;
+        font-family: 'Rubik', sans-serif;
+        ;
         margin-top: 1rem;
       }
     }
@@ -137,7 +139,8 @@
       h2 {
         color: #aac5ff;
         font-size: 20px;
-        font-family: 'Rubik', sans-serif;;
+        font-family: 'Rubik', sans-serif;
+        ;
         margin-top: 1rem;
       }
     }
@@ -183,12 +186,14 @@
 }
 
 @media (max-width : 767px) {
-  .mainProfile{
+  .mainProfile {
     margin-top: 2rem;
     margin-bottom: 8rem;
     text-align: center;
+    position: absolute;
+    padding-bottom: 0;
 
-    .summary{
+    .summary {
       text-align: center;
       padding: 0 1rem;
       margin-left: 0;
@@ -196,55 +201,63 @@
       width: 98%;
     }
 
-    .nameImage{
+    .nameImage {
       display: inline;
       text-align: center;
       background-color: transparent;
       box-shadow: none;
 
-      .nameAndSummary{
+      .nameAndSummary {
         padding: 0 1rem;
-        .name{
+
+        .name {
           font-size: 30px;
           text-align: left;
         }
-        .myNameIs{
+
+        .myNameIs {
           text-align: left;
         }
-        .disg{
+
+        .disg {
           text-align: end;
-          span{
+
+          span {
             font-size: 30px;
           }
         }
       }
     }
-    .otherMainInfo{
+
+    .otherMainInfo {
       text-align: center;
       display: flow-root;
       width: 100%;
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
 
-      .mailMain{
+      .mailMain {
         text-align: center;
         display: inline;
 
-        h2{
+        h2 {
           line-height: 30px;
           letter-spacing: 2px;
         }
-        .fa-envelope-o{
+
+        .fa-envelope-o {
           text-align: center;
         }
       }
-      .phoneMain{
-        h2{
+
+      .phoneMain {
+        h2 {
           line-height: 30px;
           letter-spacing: 2px;
         }
       }
-      .addressMain{
-        h2{
+
+      .addressMain {
+        h2 {
           line-height: 30px;
           letter-spacing: 2px;
         }
@@ -252,9 +265,11 @@
     }
   }
 }
+
 @media (max-width : 767px) {
-  .marginTop{
-      margin-top: 1rem;
-      margin-bottom: 2rem;
+  .marginTop {
+    padding-top: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 }
