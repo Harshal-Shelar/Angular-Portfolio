@@ -13,7 +13,6 @@ import { OtherSkillsComponent } from './components/other-skills/other-skills.com
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
 import { PdfService } from './pdf.service';
-import { FooterComponent } from './components/footer/footer.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 
 @NgModule({
@@ -27,7 +26,6 @@ import { ContactMeComponent } from './components/contact-me/contact-me.component
     ResumeComponent,
     OtherSkillsComponent,
     HeaderComponent,
-    FooterComponent,
     ContactMeComponent
   ],
   imports: [

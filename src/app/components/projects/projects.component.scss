@@ -8,6 +8,7 @@
   color: #aac5ff;
   text-shadow: rgb(153, 153, 153) 1px 0 3px;
   letter-spacing: 2px;
+  margin-bottom: 2rem;
 }
 .cards {
   display: flex;
@@ -156,7 +157,7 @@
   }
 }
 
-@media (max-width : 939px) {
+@media (max-width : 767px) {
   .mainClass{
     margin: 2rem auto 0;
     width: 90%;
@@ -184,7 +185,7 @@
     }
   }
 }
-@media (max-width : 939px) {
+@media (max-width : 767px) {
   .marginTop{
       margin-top: 1rem;
       margin-bottom: 2rem;

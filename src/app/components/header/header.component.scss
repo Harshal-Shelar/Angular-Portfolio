@@ -45,36 +45,56 @@
 }
 
 .sidenav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    align-items: center;
+
+    .title {
+        font-size: 24px;
+        font-family: 'pridimedium';
+        align-items: center;
+        color: white;
+        letter-spacing: 2px;
+    }
+    .headerMainIcon {
+
+        .openCloseHeader {
+            color: rgb(255, 208, 0);
+            font-size: 34px;
+            z-index: 999;
+        }
+    }
+
+    .image {
+        img{
+            height: 2.5rem;
+            width: auto;
+        }
+    }
+}
+.openSideNav{
     width: 100%;
-    transition: 0.7s;
+    background-color: #000000;
+    padding: 0.1rem 0;
     z-index: 999;
-   
-    
+    filter: blur();
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
     ul {
-        margin: 0 auto;
-        top: 40px;
-        left: 10%;
-        height: fit-content;
-        overflow: auto;
-        right: 10%;
-        position: absolute;
-        width: fit-content;
-        background-image: linear-gradient(to right, #04131f, #11334f);
-        text-align: left;
-        padding: 0 40px 0 20px;
-        box-shadow: 0px 0px 10px 10px rgba(83, 83, 83, 0.3);
+        // background-color: #000000;
         z-index: 999;
-        border-radius: 15px;
-        border: 1px solid rgb(102, 102, 102);
-        
 
         li {
             list-style: none;
-            margin: 2rem 0;
-            font-size: 25px;
+            margin: 1.5rem 0;
+            font-size: 20px;
             color: white;
             font-family: 'Rubik', sans-serif;
             letter-spacing: 1px;
+            z-index: 999;
 
             i {
                 color: rgb(255, 208, 0);
@@ -95,12 +115,16 @@
     opacity: 1;
     cursor: not-allowed;
 }
-@media (max-width : 939px) {
+.backgroundBlack{
+    background-color: black;
+}
+@media (max-width : 767px) {
     .mainHeader {
         display: none;
         visibility: hidden;
     }
-    .menuIcon{
+
+    .menuIcon {
         bottom: 10px;
         position: fixed;
         text-align: center;
@@ -108,7 +132,7 @@
         right: 40%;
         z-index: 999;
 
-        button{
+        button {
             height: 4rem;
             width: 4rem;
             background-color: black;
@@ -116,7 +140,7 @@
             border: 1px solid #000000;
             box-shadow: 0px 0px 10px 5px #aac5ff;
 
-            i{
+            i {
                 font-size: 30px;
                 color: #aac5ff;
             }
@@ -124,17 +148,100 @@
     }
 }
 
-@media (min-width : 939px) {
-    .sidenav {
+@media (min-width : 767px) {
+
+    .sidenav,
+    .headerMainIcon,.openSideNav {
         display: none;
         visibility: hidden;
     }
-    .menuIcon{
+
+    .menuIcon {
         display: none;
         visibility: hidden;
     }
+
     .header {
         display: none;
         visibility: hidden;
     }
+}
+
+.mainFooter {
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    position: sticky;
+    margin-bottom: 2rem;
+
+
+    .myUl {
+        padding: 1rem 2rem;
+        margin: 0 auto;
+        width: 1000px;
+        border-radius: 15px;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        height: 5rem;
+        align-items: center;
+
+        .logo {
+            img {
+                height: 3rem;
+                width: auto;
+                cursor: pointer;
+                border-radius: 15px;
+            }
+
+            img:hover {
+                transition: 0.3s;
+                box-shadow: 0px 0px 10px 3px gray
+            }
+        }
+
+        .lists {
+            display: flex;
+            gap: 1.5rem;
+
+            p {
+                list-style: none;
+
+                span {
+                    font-size: 18px;
+                    color: white;
+                    cursor: pointer;
+                    font-family: 'Rubik', sans-serif;
+                    letter-spacing: 1px;
+                    text-shadow: rgb(153, 153, 153) 1px 0 3px;
+                }
+
+                span:hover {
+                    text-shadow: rgb(236, 236, 236) 1px 0 30px;
+                    transition: 0.3s;
+                }
+
+                span:focus {
+                    color: rgb(255, 208, 0);
+                }
+            }
+        }
+
+
+    }
+}
+
+@media (min-width : 767px) {
+    .menuIcon {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width : 767px) {
+    .mainFooter {
+        visibility: hidden;
+        display: none;
+    }
+
 }

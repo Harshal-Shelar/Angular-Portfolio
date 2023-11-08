@@ -276,7 +276,7 @@ $porcent-corejava: 65;
         stroke-dashoffset: strokeDashoffset($porcent-corejava);
     }
 }
-@media (max-width : 939px) {
+@media (max-width : 767px) {
     .prClass{
         margin: 1.2rem;
     }
@@ -284,7 +284,7 @@ $porcent-corejava: 65;
         font-size: 30px;
     }
 }
-@media (max-width : 939px) {
+@media (max-width : 767px) {
     .marginTop{
         margin: 2rem 0;
     }

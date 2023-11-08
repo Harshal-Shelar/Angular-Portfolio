@@ -1,25 +1,42 @@
-<!-- <div class="header" [ngClass]="isBottom ? 'bottom' : 'top'">
-    <i class="fa fa-bars" *ngIf="!openSidenav" (click)="openSidenav = true"></i>
-    <i class="fa fa-close" *ngIf="openSidenav" (click)="openSidenav = false"></i>
-    <h2>My Portfolio</h2>
-    <img src="assets/casual.png" alt="">
-</div> -->
-
-<div class="sidenav" [ngClass]="openSidenav ? 'overlay' : ''">
-    <div *ngIf="openSidenav">
-        <ul>
-            <li routerLink="/profile" (click)="openSidenav = false"><i class="fa fa-user-circle"></i>Profile</li>
-            <li routerLink="/work" (click)="openSidenav = false"><i class="fa fa-folder"></i>Work</li>
-            <li routerLink="/projects" (click)="openSidenav = false"><i class="fa fa-calendar-check-o"></i>Projects</li>
-            <li routerLink="/skills" (click)="openSidenav = false"><i class="fa fa-bullseye"></i>Skills</li>
-            <li routerLink="/education" (click)="openSidenav = false"><i class="fa fa-graduation-cap"></i>Education</li>
-            <li routerLink="/otherSkills" (click)="openSidenav = false"><i class="fa fa-soccer-ball-o"></i>Activities</li>
-            <li routerLink="/resume" (click)="openSidenav = false"><i class="fa fa-vcard-o"></i>Resume</li>
-            <li routerLink="/contactMe" (click)="openSidenav = false"><i class="fa fa-paper-plane"></i>Contact Me</li>
-        </ul>
+<div class="sidenav" [ngClass]=" openSidenav ? 'backgroundBlack' : ''">
+    <div class="image">
+        <img src="assets/onlyLogo.png" routerLink="/profile" alt="">
+    </div>
+    <div class="title">
+        <span>My Portfolio</span>
+    </div>
+    <div class="headerMainIcon">
+        <i class="fa fa-bars openCloseHeader" (click)="openSidenav = true" *ngIf="!openSidenav"></i>
+        <i class="fa fa-close openCloseHeader" (click)="openSidenav = false" *ngIf="openSidenav"></i>
     </div>
 </div>
-<div class="menuIcon">
-    <button (click)="openSidenav = true" *ngIf="!openSidenav"> <i class="fa fa-bars"></i> </button>
-    <button (click)="openSidenav = false" *ngIf="openSidenav"> <i class="fa fa-close"></i> </button>
+<div class="openSideNav" *ngIf="openSidenav">
+    <ul>
+        <li routerLink="/profile" (click)="openSidenav = false"><i class="fa fa-user-circle"></i>Profile</li>
+        <li routerLink="/work" (click)="openSidenav = false"><i class="fa fa-folder"></i>Work</li>
+        <li routerLink="/projects" (click)="openSidenav = false"><i class="fa fa-calendar-check-o"></i>Projects</li>
+        <li routerLink="/skills" (click)="openSidenav = false"><i class="fa fa-bullseye"></i>Skills</li>
+        <li routerLink="/education" (click)="openSidenav = false"><i class="fa fa-graduation-cap"></i>Education</li>
+        <li routerLink="/otherSkills" (click)="openSidenav = false"><i class="fa fa-soccer-ball-o"></i>Activities</li>
+        <li routerLink="/resume" (click)="openSidenav = false"><i class="fa fa-vcard-o"></i>Resume</li>
+        <li routerLink="/contactMe" (click)="openSidenav = false"><i class="fa fa-paper-plane"></i>Contact Me</li>
+    </ul>
+</div>
+
+<div class="mainFooter">
+    <div class="myUl">
+        <div class="logo">
+            <img src="assets/onlyLogo.png" routerLink="/profile" alt="">
+        </div>
+        <div class="lists">
+            <p><span class="tooltiptext" routerLink="/profile">Profile</span></p>
+            <p><span class="tooltiptext" routerLink="/work">Work</span></p>
+            <p><span class="tooltiptext" routerLink="/projects">Projects</span></p>
+            <p><span class="tooltiptext" routerLink="/skills">Skills</span></p>
+            <p><span class="tooltiptext" routerLink="/education">Education</span></p>
+            <p><span class="tooltiptext" routerLink="/otherSkills">Activities</span></p>
+            <p><span class="tooltiptext" routerLink="/resume">Resume</span></p>
+            <p><span class="tooltiptext" routerLink="/contactMe">Contact Me</span></p>
+        </div>
+    </div>
 </div>

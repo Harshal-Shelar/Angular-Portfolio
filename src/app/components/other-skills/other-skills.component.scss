@@ -189,12 +189,15 @@
     border-radius: 1px;
 }
 
-@media (max-width : 939px) {
+@media (max-width : 767px) {
     .main {
         margin: 2rem auto 0;
-        width: 90%;
+        width: 80%;
         text-align: center;
 
+        .mainHeading{
+            font-size: 30px;
+        }
         .hobHeading {
             font-size: 30px;
             margin: 1rem 0;
@@ -221,7 +224,7 @@
     }
 }
 
-@media (max-width : 939px) {
+@media (max-width : 767px) {
     .marginTop {
         margin-top: 1rem;
         margin-bottom: 2rem;
