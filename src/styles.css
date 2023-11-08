@@ -43,6 +43,30 @@
     text-align: center;
 }
 
+.mainLeftRightBtn{
+
+  .rightCircle{
+      right: 5;
+  }
+  .leftCircle{
+      left: 5;
+  }
+  .rightCircle, .leftCircle{
+      position: fixed;
+      font-size: 40px;
+      top: 50%;
+      color: rgb(255, 208, 0);
+      transform: translateY(-50%);
+  }
+}
+
+@media (min-width : 767px) {
+  .mainLeftRightBtn{
+      display: none;
+      visibility: hidden;
+  }
+}
+
 .mainBody {
     background-attachment: fixed;
     background-position: center;
