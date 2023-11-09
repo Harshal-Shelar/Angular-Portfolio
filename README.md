@@ -43,23 +43,30 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ![screencapture-localhost-4200-contactMe-2023-11-03-17_04_03](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/cb509e86-fe06-4963-85ad-da260d8c2494)
 
-![screencapture-localhost-4200-profile-2023-11-03-17_05_19](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/5882c302-c907-405e-a98e-8f69f13fc972)
+![screencapture-localhost-4200-profile-2023-11-09-15_03_19](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/df36d01a-7c63-49df-9175-cce192ec83ad)
 
-![screencapture-localhost-4200-profile-2023-11-03-17_05_48](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/1715043c-2b58-42da-9089-533daa866096)
+![screencapture-localhost-4200-profile-2023-11-09-15_04_09](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/2ec22745-5a20-49b9-9fee-de23a0a6216d)
 
-![screencapture-localhost-4200-work-2023-11-03-17_06_15](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/18c07561-a461-4086-9499-779c0cad055d)
+![screencapture-localhost-4200-work-2023-11-09-15_05_39](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/e3a7ad4d-0ab9-448d-bde2-053eb0638822)
 
-![screencapture-localhost-4200-projects-2023-11-03-17_06_47](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/908da2c6-774e-4429-ba82-b8512711bdd6)
+![screencapture-localhost-4200-projects-2023-11-09-15_06_28](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/209be5ab-4d4a-4cb8-8edd-9df24d75fc1a)
 
-![screencapture-localhost-4200-skills-2023-11-03-17_07_10](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/b697acc7-ed63-48b6-90bc-07c189f55faf)
+![screencapture-localhost-4200-skills-2023-11-09-15_07_08](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/1df08b4a-a009-4619-906e-f0a38e9dc5be)
 
-![screencapture-localhost-4200-education-2023-11-03-17_07_40](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/56f42840-1365-4bab-80c4-fb526531de11)
+![screencapture-localhost-4200-education-2023-11-09-15_07_48](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/a5abf678-d786-4dd4-a0a3-02ecfe8d4d5b)
 
-![screencapture-localhost-4200-otherSkills-2023-11-03-17_08_09](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/6ed34b1a-d486-4561-a53c-5d3bbbfd4847)
+![screencapture-localhost-4200-otherSkills-2023-11-09-15_08_24](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/e03e1d73-87af-4580-a7a7-108d08c08ddc)
 
-![screencapture-localhost-4200-resume-2023-11-03-17_08_45](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/c245222d-c0ae-4a27-be51-3af9b4fd8dca)
+![screencapture-localhost-4200-resume-2023-11-09-15_09_24](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/2b62b097-494c-4c4e-aa78-bfc3b79c2b09)
 
-![screencapture-localhost-4200-contactMe-2023-11-03-17_09_07](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/9cf9931f-3d52-4b12-a779-a52010290ff1)
+![screencapture-localhost-4200-contactMe-2023-11-09-15_09_44](https://github.com/Harshal-Shelar/myPortfolio/assets/58460619/c8212454-3ad1-4106-92e4-e204e42d3b4d)
+
+
+
+
+
+
+
 
 
 
