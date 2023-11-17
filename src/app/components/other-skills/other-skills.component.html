@@ -99,7 +99,7 @@
     <i class="fa fa-chevron-right rightCircle" (click)="goNext()"></i>
 </div>
 
-<div class="overlay" *ngIf="redHatPopup">
+<div class="overlay" *ngIf="redHatPopup" (click)="redHatPopup = false">
     <div class="popup">
         <a class="close" (click)="redHatPopup = false">&times;</a>
         <div class="content">
@@ -108,7 +108,7 @@
     </div>
 </div>
 
-<div class="overlay" *ngIf="sihPopup">
+<div class="overlay" *ngIf="sihPopup" (click)="sihPopup = false">
     <div class="popup">
         <a class="close" (click)="sihPopup = false">&times;</a>
         <div class="content">

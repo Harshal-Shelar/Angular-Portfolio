@@ -222,6 +222,18 @@
             }
         }
     }
+    .overlay{
+        margin-top: 4rem;
+        // width: 80%;
+        .popup{
+            width: 90%;
+            .content{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width : 767px) {
