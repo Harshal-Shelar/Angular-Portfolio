@@ -55,6 +55,7 @@
       position: fixed;
       font-size: 40px;
       top: 50%;
+      font-weight: lighter;
       color: rgb(255, 208, 0);
       transform: translateY(-50%);
   }
@@ -72,7 +73,8 @@
     background-position: center;
     background-repeat: no-repeat no-repeat, no-repeat no-repeat;
     background-size: cover;
-    background-image: linear-gradient(to right, #04131f, #164773);
+    /* background-image: linear-gradient(to right, #04131f, #164773); */
+    background-image: url("https://images.hdqwalls.com/download/dark-abstract-blur-4k-on-1920x1080.jpg");
 }
 .prevNextBtn{
   text-align: center;
