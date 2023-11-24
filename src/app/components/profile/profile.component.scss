@@ -11,6 +11,7 @@
     border-radius: 20px;
     width: fit-content;
     padding: 2rem;
+    background-color: rgba(5,4,8,255);
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
 
     .nameAndSummary {
@@ -24,7 +25,6 @@
       .name {
         margin: 1rem 0 0.1rem;
         font-family: 'Rubik', sans-serif;
-        ;
         color: #aac5ff;
         font-size: 60px;
       }
@@ -48,9 +48,8 @@
 
     .image {
       .img {
-        height: 20rem;
+        height: 22rem;
         width: auto;
-        border-radius: 20px;
       }
     }
   }
@@ -230,6 +229,11 @@
           span {
             font-size: 30px;
           }
+        }
+      }
+      .image{
+        .img{
+          margin-left: 4rem;
         }
       }
     }
