@@ -42,6 +42,32 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ![screencapture-localhost-4200-contactMe-2023-11-24-10_36_14](https://github.com/Harshal-Shelar/Angular-Portfolio/assets/58460619/45ba649b-4444-442c-9546-cc9db67232fd)
 
+![screencapture-localhost-4200-profile-2023-11-24-10_53_05](https://github.com/Harshal-Shelar/Angular-Portfolio/assets/58460619/fa6619a4-ba82-453b-b8ad-551e989585f9)
+
+![screencapture-localhost-4200-profile-2023-11-24-10_52_54](https://github.com/Harshal-Shelar/Angular-Portfolio/assets/58460619/52bbe411-d2c0-406c-937f-bcff52d0bacd)
+
+![screencapture-localhost-4200-work-2023-11-24-10_53_15](https://github.com/Harshal-Shelar/Angular-Portfolio/assets/58460619/68eb5035-3ef6-4c2b-b645-8a2fc3e16921)
+
+![screencapture-localhost-4200-projects-2023-11-24-10_53_29](https://github.com/Harshal-Shelar/Angular-Portfolio/assets/58460619/68946ac5-5cf3-4282-989e-416b414fa0b9)
+
+![screencapture-localhost-4200-skills-2023-11-24-10_53_41](https://github.com/Harshal-Shelar/Angular-Portfolio/assets/58460619/228c0523-deaf-4c7a-91dd-ead7d53db704)
+
+![screencapture-localhost-4200-education-2023-11-24-10_53_52](https://github.com/Harshal-Shelar/Angular-Portfolio/assets/58460619/8e622eca-10f7-4174-b76b-95479213ed26)
+
+![screencapture-localhost-4200-otherSkills-2023-11-24-10_54_01](https://github.com/Harshal-Shelar/Angular-Portfolio/assets/58460619/d36d774b-0a1c-4e7e-aeca-b4c500664228)
+
+![screencapture-localhost-4200-contactMe-2023-11-24-10_54_23](https://github.com/Harshal-Shelar/Angular-Portfolio/assets/58460619/121f5ecf-ca85-48f0-945b-4570badf59c9)
+
+![screencapture-localhost-4200-resume-2023-11-24-10_54_11](https://github.com/Harshal-Shelar/Angular-Portfolio/assets/58460619/c33aa386-bd9a-4619-a482-a9216b2ba15c)
+
+
+
+
+
+
+
+
+
 
 
 
