@@ -30,59 +30,59 @@
 }
 
 .shadowBtn:hover {
-    box-shadow: 1px 1px 10px 1px white;
-    transition: 0.3s;
+  box-shadow: 1px 1px 10px 1px white;
+  transition: 0.3s;
 }
 
 .darkShadow:hover {
-    transition: 0.3s;
-    box-shadow: 1px 1px 15px 5px #0d1320;
+  transition: 0.3s;
+  box-shadow: 1px 1px 15px 5px #0d1320;
 }
 
 .nextBtn {
-    text-align: center;
+  text-align: center;
 }
 
-.mainLeftRightBtn{
+.mainLeftRightBtn {
 
-  .rightCircle{
-      right: 5;
+  .rightCircle {
+    right: 5;
   }
-  .leftCircle{
-      left: 5;
+
+  .leftCircle {
+    left: 5;
   }
-  .rightCircle, .leftCircle{
-      position: fixed;
-      font-size: 40px;
-      top: 50%;
-      font-weight: lighter;
-      color: rgb(255, 208, 0);
-      transform: translateY(-50%);
+
+  .rightCircle,
+  .leftCircle {
+    position: fixed;
+    font-size: 40px;
+    top: 50%;
+    font-weight: lighter;
+    color: rgb(255, 208, 0);
+    transform: translateY(-50%);
   }
 }
 
 @media (min-width : 767px) {
-  .mainLeftRightBtn{
-      display: none;
-      visibility: hidden;
+  .mainLeftRightBtn {
+    display: none;
+    visibility: hidden;
   }
 }
 
 .mainBody {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat no-repeat, no-repeat no-repeat;
-    background-size: cover;
-    background-image: linear-gradient(to right, #04131f, #164773);
-    /* background-image: url("https://images.hdqwalls.com/download/dark-abstract-blur-4k-on-1920x1080.jpg"); */
+  background-image: linear-gradient(to right, #04131f, #164773);
 }
-.prevNextBtn{
+
+.prevNextBtn {
   text-align: center;
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
-.btnPrevNext{
+
+.btnPrevNext {
   border: none;
   padding: 0.5rem;
   color: white;
@@ -94,22 +94,26 @@
   margin: 0 0 2rem 0rem;
   bottom: 20px;
 }
+
 @media (max-width : 767px) {
-  .prevNextBtn{
+  .prevNextBtn {
     display: flex;
     justify-content: center;
     padding: 0 1rem;
   }
 }
-.backArrow{
+
+.backArrow {
   color: rgb(255, 208, 0);
 }
-.btnPrevNext:hover{
+
+.btnPrevNext:hover {
   font-size: 22px;
   transition: 0.3s;
   padding: 0.5rem 1rem;
   box-shadow: 0px 0px 10px 2px #04131f;
 }
+
 .btnNext {
   padding: 1rem;
   border: 3px solid #aac5ff;
@@ -123,10 +127,11 @@
   letter-spacing: 1px;
   font-family: 'pridimedium';
 }
+
 .btnNext:hover {
-    border: 3px solid #0d1320;
-    background-color: #aac5ff;
-    color: #0d1320;
-    box-shadow: 1px 1px 10px 1px white;
-    transition: 0.3s;
+  border: 3px solid #0d1320;
+  background-color: #aac5ff;
+  color: #0d1320;
+  box-shadow: 1px 1px 10px 1px white;
+  transition: 0.3s;
 }
